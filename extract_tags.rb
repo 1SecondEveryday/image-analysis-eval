@@ -53,8 +53,23 @@ class TagExtractor
     master_csv << %w[model image_size prompt_name image_filename tags raw_output timestamp success]
 
     # Process in batches by model to allow proper cleanup
-    @models.each do |model|
-      puts "\n📊 Processing model: #{model}"
+    @models.each_with_index do |model, model_index|
+      puts "\n" + "=" * 60
+      puts "📊 Model #{model_index + 1}/#{@models.length}: #{model}"
+      puts "=" * 60
+
+      # Check if model exists and pull if needed
+      unless model_exists?(model)
+        puts "  📦 Model not found locally. Pulling #{model}..."
+        pull_success = system("ollama pull #{model}")
+
+        unless pull_success
+          puts "  ❌ Failed to pull #{model}. Skipping..."
+          next
+        end
+
+        puts "  ✓ Successfully pulled #{model}"
+      end
 
       # Ensure model is loaded
       ensure_model_loaded(model)
@@ -162,7 +177,16 @@ class TagExtractor
     end
   end
 
+  def model_exists?(model)
+    list_output = `ollama list 2>&1`
+    model_name = model.split(':').first
+    list_output.include?(model_name)
+  end
+
   def unload_model(model)
+    # Skip unloading if model doesn't exist
+    return unless model_exists?(model)
+
     uri = URI.parse('http://localhost:11434/api/delete')
     http = Net::HTTP.new(uri.host, uri.port)
 
@@ -242,7 +266,7 @@ class TagExtractor
     elapsed = Time.now - start
 
     if @verbose || count % 10 == 0
-      print "\r  Progress: #{progress}% (#{count}/#{total}) - Last: #{elapsed.round(1)}s"
+      print "\r  Overall progress: #{progress}% (#{count}/#{total})"
     end
 
   rescue => e
