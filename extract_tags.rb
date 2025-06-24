@@ -13,12 +13,12 @@ require 'concurrent'
 class TagExtractor
   OLLAMA_URL = 'http://localhost:11434/api/generate'
   DEFAULT_MODELS = {
-    'qwen2.5vl:3b' => 2,      # Your benchmark showed slight benefit at 2
-    'moondream:1.8b' => 8,    # Your benchmark showed parallelism hurts this model
+    'qwen2.5vl:3b' => 2,
+    'moondream:1.8b' => 8, # doesn't help a lot but doesn't hurt either
     'llava:7b' => 2,
     'llava:13b' => 2,
-    'llama3.2-vision:11b' => 2,
-    'llava-phi3:3.8b' => 2
+    'llama3.2-vision:11b' => 1, # super slow, 3+ minutes for 8 photos
+    'llava-phi3:3.8b' => 4
   }
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
 
