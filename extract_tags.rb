@@ -20,6 +20,9 @@ class TagExtractor
     @models = options[:models] || DEFAULT_MODELS
     @timeout = options[:timeout] || 120
     @verbose = options[:verbose] || false
+    @max_images = options[:max_images] || nil
+    @no_unload = options[:no_unload] || false
+    @single_prompt = options[:single_prompt] || nil
   end
 
   def run
@@ -99,9 +102,11 @@ class TagExtractor
       pool.shutdown
       pool.wait_for_termination
 
-      # Unload model to free memory
-      puts "  🧹 Unloading model #{model}..."
-      unload_model(model)
+      # Unload model to free memory (unless disabled)
+      unless @no_unload
+        puts "  🧹 Unloading model #{model}..."
+        unload_model(model)
+      end
     end
 
     master_csv.close
@@ -137,7 +142,14 @@ class TagExtractor
       end
     end
 
-    images.sort_by { |img| [img[:size], img[:filename]] }
+    images = images.sort_by { |img| [img[:size], img[:filename]] }
+
+    # Limit images if requested
+    if @max_images && @max_images > 0
+      images = images.first(@max_images)
+    end
+
+    images
   end
 
   def valid_image?(filename)
@@ -148,9 +160,20 @@ class TagExtractor
   def load_prompts
     prompts = {}
 
-    Dir.glob('prompts/*.txt').each do |file|
-      content = File.read(file).strip
-      prompts[file] = content
+    if @single_prompt
+      # Load only the specified prompt
+      prompt_file = "prompts/#{@single_prompt}.txt"
+      if File.exist?(prompt_file)
+        prompts[prompt_file] = File.read(prompt_file).strip
+      else
+        puts "❌ Prompt file not found: #{prompt_file}"
+      end
+    else
+      # Load all prompts
+      Dir.glob('prompts/*.txt').each do |file|
+        content = File.read(file).strip
+        prompts[file] = content
+      end
     end
 
     prompts
@@ -187,22 +210,13 @@ class TagExtractor
     # Skip unloading if model doesn't exist
     return unless model_exists?(model)
 
-    uri = URI.parse('http://localhost:11434/api/delete')
-    http = Net::HTTP.new(uri.host, uri.port)
+    # Use ollama stop command to unload model from memory
+    success = system("ollama stop #{model}", out: File::NULL, err: File::NULL)
 
-    request = Net::HTTP::Delete.new(uri.path)
-    request['Content-Type'] = 'application/json'
-    request.body = { name: model }.to_json
-
-    begin
-      response = http.request(request)
-      if response.code == '200'
-        puts "  ✓ Model unloaded successfully"
-      else
-        puts "  ⚠️  Failed to unload model: #{response.body}"
-      end
-    rescue => e
-      puts "  ⚠️  Error unloading model: #{e.message}"
+    if success
+      puts "  ✓ Model unloaded from memory"
+    else
+      puts "  ⚠️  Failed to unload model from memory"
     end
   end
 
@@ -391,7 +405,10 @@ if __FILE__ == $0
     parallel: 8,
     models: TagExtractor::DEFAULT_MODELS,
     timeout: 120,
-    verbose: false
+    verbose: false,
+    max_images: nil,
+    no_unload: false,
+    single_prompt: nil
   }
 
   OptionParser.new do |opts|
@@ -411,6 +428,18 @@ if __FILE__ == $0
 
     opts.on("-v", "--verbose", "Verbose output") do
       options[:verbose] = true
+    end
+
+    opts.on("--max-images NUM", Integer, "Limit number of images to process") do |n|
+      options[:max_images] = n
+    end
+
+    opts.on("--no-unload", "Don't unload models between tests") do
+      options[:no_unload] = true
+    end
+
+    opts.on("--single-prompt NAME", "Use only one prompt (e.g. '01-structured-comprehensive')") do |name|
+      options[:single_prompt] = name
     end
 
     opts.on("-h", "--help", "Show this help") do
