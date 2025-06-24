@@ -27,7 +27,7 @@ end
 
 # Pull model if needed
 puts "Ensuring model is available..."
-unless `ollama list`.include?(test_model.split(':').first)
+unless `ollama list`.include?(test_model)
   system("ollama pull #{test_model}")
 end
 
