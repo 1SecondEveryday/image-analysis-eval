@@ -1,0 +1,1 @@
+Create tags as comma-separated values only. Tag visible colors (dominant and secondary), every object, people with count, their activities and expressions, location details, environmental conditions, time indicators, and the emotional atmosphere of the scene.

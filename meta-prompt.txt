@@ -1,0 +1,77 @@
+We make a video-diary app and want to let users automatically select “snippets” (video entries) based on natural-language searches like
+• holidays at the beach
+• blue scenes
+• my trip to Europe in February
+• happy moments with my husband
+• laughter
+
+We’ll extract a single frame (or small set of frames) from each snippet and analyze those. We want to test both English tag generation and embeddings.
+
+Goal:
+Evaluate combinations of model, prompt, and image size against a fixed set of images. For each image we have a “must-have” list of tags. We’ll also shrink images to find the smallest size that still yields high-quality tags. Quality is #1; cost is secondary.
+
+—
+
+Step 1: Image Prep Script (one-time task)
+Write a Ruby script that:
+	1.	Reads images from photo-original/.
+	2.	Resizes to multiple dimensions (your choice of sizes).
+	3.	Saves resized images into directories named photo-<size> (e.g. photo-512, photo-256).
+	4.	Uses GraphicsMagick (or built-in macOS tools).
+	5.	Names each image with a series number plus a short descriptive name (e.g. 01-beach-sunset.jpg, 02-ski-trip.jpg).
+
+Manually rename originals first using that convention—this is a one-time setup, not part of the script.
+
+—
+
+Step 2: Prompt Variants
+	1.	Base prompt:
+“List keywords for image search as comma-separated tags only. Include colors, objects, people count, emotions, activities, location type, weather, mood of the scene. Output only the tags, nothing else, but give lots of tags and detail so the image can be found in search.”
+	2.	Create 4–6 variants that tweak phrasing or emphasize different aspects (e.g. mood, objects, location).
+	3.	Save each as plain-text in prompts/, named:
+• 01-generic-tags.txt
+• 02-detailed-mood-tags.txt
+• 03-location-focused.txt
+• …
+
+—
+
+Step 3: Tag-Extraction Script
+Write a Ruby program that:
+	1.	Loads every resized image from all photo-<size>/ directories.
+	2.	For each image, sends a curl request to your local Ollama server at localhost:11434/api/generate, passing:
+• model: one of llava:7b, gemma:<size> (and any others you choose)
+• image: base64-encoded image data
+• prompt: contents of the prompt file (sent in JSON under the "prompt" key)
+	3.	Captures the response and, if it fails or times out, marks tags as "failed" and logs any error.
+	4.	Saves results (overwriting existing) in CSV format with columns:
+model,image_size,prompt_name,image_filename,tags,raw_output,timestamp,success
+	5.	Runs up to 8 requests in parallel (configurable via a CLI flag).
+
+—
+
+Step 4: Expected Tags
+Place “must-have” tags for each photo in expected-tags/ as text files named identically to the image (e.g. 03-beach-sunset.txt). The script will load these and check for an exact match; if missing, mark success as false.
+
+—
+
+Step 5: Organize the Results
+Use this directory structure:
+
+results/
+  [model-name]/
+    [image-size]/
+      [prompt-name].csv
+      run.json          # optional metadata: models, prompts, script version, system info
+
+Each CSV has header:
+
+image_filename,tags,raw_output,timestamp,success
+
+Alternatively, maintain one master results/master.csv with columns:
+
+model,image_size,prompt_name,image_filename,tags,raw_output,timestamp,success
+
+—
+
+Make sure everything is plain text, handle newlines in prompts as JSON strings, and use the prompt filename (without extension) as prompt_name in your CSVs.
