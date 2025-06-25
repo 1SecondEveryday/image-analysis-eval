@@ -1,1 +1,1 @@
-Output only comma-separated keywords that cover everything in the scene: colors, objects, people count, what they're doing and feeling, the environment (location type, weather, lighting, time), and the general mood or vibe.
+Output only comma-separated keywords that cover everything in the scene: colors, objects, people (if present, use 'people' with descriptive count like '2-people'), what they're doing and feeling, the environment (location type, weather, lighting, time), and the general mood or vibe.

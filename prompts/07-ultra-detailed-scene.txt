@@ -1,6 +1,6 @@
 Generate comprehensive search keywords for this image as comma-separated values. Analyze and keyword:
 
-PEOPLE: exact count, apparent ages (baby/child/teen/adult/elderly), genders if clear, relationships (couple/family/friends/strangers), body language, facial expressions (smiling/laughing/crying/serious/surprised), activities (eating/walking/sitting/playing/working)
+PEOPLE: if humans are visible include 'people' keyword followed by descriptive count (e.g. '3-people', 'group', 'couple'), apparent ages (baby/child/teen/adult/elderly), genders if clear, relationships (couple/family/friends/strangers), body language, facial expressions (smiling/laughing/crying/serious/surprised), activities (eating/walking/sitting/playing/working). If no people are present, skip all people-related keywords
 
 MOOD & ATMOSPHERE: overall emotional tone (joyful/peaceful/tense/romantic/nostalgic/energetic), energy level (calm/lively/chaotic), formality (casual/formal/ceremonial)
 

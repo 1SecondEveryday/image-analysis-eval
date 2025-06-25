@@ -1,1 +1,1 @@
-Comma-separated keywords covering: colors, all objects, people count, activities, emotions, location type, weather/lighting, time of day, mood. Keywords only.
+Comma-separated keywords covering: colors, all objects, people (if humans visible, include 'people' with count like '3-people'), activities, emotions, location type, weather/lighting, time of day, mood. Keywords only.
