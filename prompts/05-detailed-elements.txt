@@ -1,1 +1,1 @@
-Create keywords as comma-separated values only. Keyword visible colors (dominant and secondary), every object, people with count, their activities and expressions, location details, environmental conditions, time indicators, and the emotional atmosphere of the scene.
+Create keywords as comma-separated values only. Focus on: people's emotions, expressions, moods, and activities if present; camera perspective (selfie or pov if applicable); the emotional atmosphere and overall mood; important objects; dominant colors; lighting quality; and location/setting details.

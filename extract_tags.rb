@@ -11,7 +11,7 @@ require 'time'
 
 class TagExtractor
   OLLAMA_URL = 'http://localhost:11434/api/generate'
-  DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'bakllava:7b', 'minicpm-v:8b', 'llama3.2-vision:11b', 'llava:13b']
+  DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'minicpm-v:8b']
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
 
   def initialize(options = {})
@@ -21,7 +21,7 @@ class TagExtractor
     @max_images = options[:max_images] || nil
     @no_unload = options[:no_unload] || false
     @single_prompt = options[:single_prompt] || nil
-    @system_prompt = options[:system_prompt] || "You are an image-keyword assistant. After analyzing each picture, output one line containing concise, lowercase English keywords separated by commas. Include scene type, activities, emotions, dominant colours, time-of-day, objects in foreground, objects in background. For people: only include 'people' as a keyword if humans are actually visible in the image, followed by descriptive count like '3-people' or 'group'. If no people are present, do not include any people-related keywords. Do not repeat synonyms. Do not output anything except the comma-separated keyword list."
+    @system_prompt = options[:system_prompt] || "You are an image-keyword assistant. After analyzing each picture, output one line containing concise, lowercase English keywords separated by commas. Focus on people's emotions, expressions, moods, and activities if present. Include overall atmosphere, key objects, dominant colors, lighting quality, and setting. For people: include 'people' if humans are visible, with descriptors like 'couple', 'group', or 'crowd'. If the image appears to be a selfie or POV (point-of-view/first-person perspective), include 'selfie' or 'pov' as appropriate. Prioritize emotional and mood keywords. Do not repeat synonyms. Do not output anything except the comma-separated keyword list."
   end
 
   def run
@@ -122,8 +122,8 @@ class TagExtractor
   def collect_images
     images = []
 
-    # Only process 768 and 1024 sizes
-    allowed_sizes = [768, 1024]
+    # Only process 768 size
+    allowed_sizes = [768]
 
     Dir.glob('photo-*').select { |d| File.directory?(d) }.each do |dir|
       size_match = dir.match(/photo-(\d+)/)
