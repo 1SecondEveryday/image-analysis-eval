@@ -1,1 +1,0 @@
-Generate comma-separated keywords only: include all colors, objects, number of people, actions, facial expressions or emotions, the environment (location type, weather, lighting, time), and the scene's mood or atmosphere.
