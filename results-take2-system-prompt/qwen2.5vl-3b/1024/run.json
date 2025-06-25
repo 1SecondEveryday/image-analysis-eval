@@ -1,0 +1,10 @@
+{
+  "model": "qwen2.5vl:3b",
+  "image_size": 1024,
+  "prompt_name": "02-scene-everything",
+  "timestamp": "2025-06-25T00:19:39-04:00",
+  "system": {
+    "platform": "arm64-darwin24",
+    "ruby_version": "3.4.3"
+  }
+}
