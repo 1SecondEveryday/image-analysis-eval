@@ -16,8 +16,8 @@ class TagExtractor
     'qwen2.5vl:3b' => 2,
     'moondream:1.8b' => 8, # doesn't help a lot but doesn't hurt either
     'llava:7b' => 2,
-    'llava:13b' => 2,
-    'llama3.2-vision:11b' => 1, # super slow, 3+ minutes for 8 photos
+    # 'llava:13b' => 2,
+    # 'llama3.2-vision:11b' => 1, # super slow, 3+ minutes for 8 photos
     'llava-phi3:3.8b' => 4
   }
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
