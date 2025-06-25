@@ -1,0 +1,7 @@
+{
+  "model": "llama3.2-vision:11b",
+  "image_size": 128,
+  "prompt_name": "05-detailed-elements",
+  "timestamp": "2025-06-24T21:40:02-04:00",
+  "images_processed": 58
+}

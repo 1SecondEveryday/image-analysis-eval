@@ -1,0 +1,7 @@
+{
+  "model": "qwen2.5vl:3b",
+  "image_size": 2048,
+  "prompt_name": "05-detailed-elements",
+  "timestamp": "2025-06-24T16:23:12-04:00",
+  "images_processed": 58
+}

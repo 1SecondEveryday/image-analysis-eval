@@ -1,0 +1,7 @@
+{
+  "model": "qwen2.5vl:3b",
+  "image_size": 512,
+  "prompt_name": "04-generate-all-aspects",
+  "timestamp": "2025-06-24T13:06:11-04:00",
+  "images_processed": 58
+}

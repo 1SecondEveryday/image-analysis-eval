@@ -1,0 +1,7 @@
+{
+  "model": "moondream:1.8b",
+  "image_size": 128,
+  "prompt_name": "05-detailed-elements",
+  "timestamp": "2025-06-24T16:27:34-04:00",
+  "images_processed": 58
+}

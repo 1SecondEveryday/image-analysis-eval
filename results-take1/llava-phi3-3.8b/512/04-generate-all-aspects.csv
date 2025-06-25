@@ -1,0 +1,522 @@
+image_filename,tags,raw_output,timestamp,success
+01-street-meditation-couple.jpg,"* two people sitting on a stone bench
+* man wearing a blue jacket and hat
+* woman wearing a black jacket and hat
+* red shirt under her jacket
+* holding hands while sitting
+* sidewalk next to the street
+* trees in the background
+* bicycles parked nearby
+* people walking on the sidewalk
+* daytime with sunlight illuminating the scene
+* peaceful atmosphere of a city street",* two people sitting on a stone bench * man wearing a blue jacket and hat * woman wearing a black jacket and hat * red shirt under her jacket * holding hands while sitting * sidewalk next to the street * trees in the background * bicycles parked nearby * people walking on the sidewalk * daytime with sunlight illuminating the scene * peaceful atmosphere of a city street,2025-06-24T22:19:24-04:00,true
+02-graffiti-skate-park.jpg,"* Graffiti on the walls includes colors like blue, red, green, and yellow","* Man standing in a room with graffiti on the walls * The man is wearing a gray jacket and black pants * There are two people in the room - one man and one woman * A skateboard ramp is present in the room * Graffiti on the walls includes colors like blue, red, green, and yellow * The room has a concrete floor and metal beams supporting the ceiling * The scene takes place indoors, possibly during daytime with natural lighting * The atmosphere of the scene is casual and relaxed, with people engaged in conversation or activity",2025-06-24T22:19:28-04:00,true
+03-belgian-stew-fries.jpg,"* There are two forks next to the plate, one silver and one gold."," * A plate with meatballs in gravy and french fries on a table. * The plate is white with blue and red floral designs around the edge. * There are two forks next to the plate, one silver and one gold. * A bottle of ketchup is on the table. * A glass of water is also present on the table. * The background consists of a wooden table with chairs. * The scene suggests a meal being served in a restaurant or home setting.",2025-06-24T22:19:31-04:00,true
+04-cheese-fondue-dinner.jpg,"* The atmosphere seems casual and relaxed, with people enjoying their meal and drink."," * A table with various food items on it * Two plates of food: one with a red bowl filled with soup and another with bread * A glass of beer next to the plates * A bottle of hot sauce placed near the bread plate * A person's hand reaching for the beer glass * The table is set in what appears to be a restaurant or cafe * The atmosphere seems casual and relaxed, with people enjoying their meal and drink.",2025-06-24T22:19:34-04:00,true
+05-snowboarders-mountain-rest.jpg,"* red, blue, black, white, gray, yellow, green, purple"," * snowboarders * skiers * mountain * foggy day * winter sports * group of people * standing and sitting * wearing helmets and goggles * colorful clothing * red, blue, black, white, gray, yellow, green, purple * 5 people in total * enjoying the outdoors * chilly atmosphere",2025-06-24T22:19:36-04:00,true
+06-alpine-trail-hiker.jpg,"* Two people standing in a field
+* A man wearing a red shirt and blue pants
+* A woman wearing a black jacket and white pants
+* A campfire with wood surrounding it
+* Snow on the ground
+* Trees in the background
+* Bright sunlight illuminating the scene
+* The mood of the scene is peaceful and serene", * Two people standing in a field * A man wearing a red shirt and blue pants * A woman wearing a black jacket and white pants * A campfire with wood surrounding it * Snow on the ground * Trees in the background * Bright sunlight illuminating the scene * The mood of the scene is peaceful and serene,2025-06-24T22:19:39-04:00,true
+07-restaurant-group-dinner.jpg,"* A third person is sitting across from them all, eating pizza with a knife and fork","* Man with bald head and beard in foreground wearing black t-shirt with yellow logo on it * Woman sitting at table holding a fork and eating food from plate * Man sitting at table drinking from glass of water * Another man sitting at the table looking down at his phone * A woman sitting next to him also looking down at her phone * A third person is sitting across from them all, eating pizza with a knife and fork * The group is gathered around a wooden table in a restaurant or bar setting * There are multiple cups, plates, forks, and bottles on the table * The wall behind them has a painting of a boat on it * The atmosphere appears to be casual and relaxed with people enjoying their meal and conversation.",2025-06-24T22:19:42-04:00,true
+08-neon-bar-friends.jpg,"1. Purple, green, blue, white, black, gray, yellow, red, brown, beige, pink, orange, silver, gold, clear, glass, plastic, metal, wood, stone, brick, concrete, water, air, fire, earth, sun, moon, stars, planets, comet, meteor, galaxy, nebula, black hole, wormhole, time dilation, space-time continuum, entropy, thermodynamics, heat transfer, conduction, convection, radiation, infrared, ultraviolet, x-rays, gamma rays, radio waves, microwaves, visible light, optical spectrum, electromagnetic spectrum, frequency, wavelength, amplitude, phase, polarization, spin, charge, mass, energy, velocity, momentum, force, gravity, inertia, friction, drag, lift, buoyancy, density, pressure, temperature, humidity, wind speed, air quality, water quality, soil quality, climate change, greenhouse effect, ozone layer, carbon footprint, renewable energy, fossil fuels, nuclear power, solar power, wind power, hydroelectric power, geothermal power, tidal power, wave power, biomass, biofuel, ethanol, biodiesel, natural gas, propane, butane, methane, helium, neon, argon, krypton, xenon, radon, uranium, thorium, plutonia, americium, curium, europium, gadolinium, terbium, dysprosium, erbium, ytterbium, lutetium, hafnium, tantalum, tungsten, osmium, rhenium, rhodium, iridium, osmium, ruthenium, palladium, platinum, gold, silver, copper, zinc, nickel, tin, lead, mercury, beryllium, boron, carbon, silicon, phosphorus, sulfur, chlorine, fluorine, iodine, bromine, astatine, radon, francium, radium, actinium, thorium, protactinium, u","1. Purple, green, blue, white, black, gray, yellow, red, brown, beige, pink, orange, silver, gold, clear, glass, plastic, metal, wood, stone, brick, concrete, water, air, fire, earth, sun, moon, stars, planets, comet, meteor, galaxy, nebula, black hole, wormhole, time dilation, space-time continuum, entropy, thermodynamics, heat transfer, conduction, convection, radiation, infrared, ultraviolet, x-rays, gamma rays, radio waves, microwaves, visible light, optical spectrum, electromagnetic spectrum, frequency, wavelength, amplitude, phase, polarization, spin, charge, mass, energy, velocity, momentum, force, gravity, inertia, friction, drag, lift, buoyancy, density, pressure, temperature, humidity, wind speed, air quality, water quality, soil quality, climate change, greenhouse effect, ozone layer, carbon footprint, renewable energy, fossil fuels, nuclear power, solar power, wind power, hydroelectric power, geothermal power, tidal power, wave power, biomass, biofuel, ethanol, biodiesel, natural gas, propane, butane, methane, helium, neon, argon, krypton, xenon, radon, uranium, thorium, plutonia, americium, curium, europium, gadolinium, terbium, dysprosium, erbium, ytterbium, lutetium, hafnium, tantalum, tungsten, osmium, rhenium, rhodium, iridium, osmium, ruthenium, palladium, platinum, gold, silver, copper, zinc, nickel, tin, lead, mercury, beryllium, boron, carbon, silicon, phosphorus, sulfur, chlorine, fluorine, iodine, bromine, astatine, radon, francium, radium, actinium, thorium, protactinium, u",2025-06-24T22:19:55-04:00,true
+09-record-store-group-photo.jpg,"* Group photo, 12 people in total","* Group photo, 12 people in total * Posing for picture, smiling and laughing * White shirts worn by some individuals * Black jacket worn by one individual * Bookshelves filled with books in the background * Colorful book covers on the shelves * Bright lighting illuminating the room * Indoor setting, specifically a library or bookstore * Positive and cheerful atmosphere * People standing and sitting around a table with a laptop and microphone * Some individuals holding drinks in their hands",2025-06-24T22:19:58-04:00,true
+10-alpine-peaks-vista.jpg,"* snowy mountain range
+* clear blue sky
+* white clouds in the distance
+* rocky terrain on the right side of the image
+* city below the mountains
+* two people standing on a ledge
+* one person is wearing a backpack
+* one person is holding a camera
+* one person is taking pictures
+* one person is looking through binoculars
+* one person is pointing at something in the distance
+* one person is smiling and laughing
+* one person is sitting on a rock
+* one person is standing on a rock
+* one person is walking along the edge of the cliff
+* one person is taking a photo with their camera
+* one person is looking through binoculars
+* one person is pointing at something in the distance
+* one person is smiling and laughing
+* one person is sitting on a rock
+* one person is standing on a rock
+* one person is walking along the edge of the cliff
+* one person is taking a photo with their camera
+* one person is looking through binoculars
+* one person is pointing at something in the distance
+* one person is smiling and laughing
+* one person is sitting on a rock
+* one person is standing on a rock
+* one person is walking along the edge of the cliff
+* one person is taking a photo with their camera
+* one person is looking through binoculars
+* one person is pointing at something in the distance
+* one person is smiling and laughing
+* one person is sitting on a rock
+* one person is standing on a rock
+* one person is walking along the edge of the cliff
+* one person is taking a photo with their camera
+* one person is looking through binoculars
+* one person is pointing at something in the distance
+* one person is smiling and laughing
+* one person is sitting on a rock
+* one person is standing on a rock
+* one person is walking along the edge of the cliff
+* one person is taking a photo with their camera
+* one person is looking through binoculars
+* one person is pointing at something in the distance
+* one person is smiling and laughing
+* one person is sitting on a rock
+* one person is standing on a rock
+* one person is walking along the edge of", * snowy mountain range * clear blue sky * white clouds in the distance * rocky terrain on the right side of the image * city below the mountains * two people standing on a ledge * one person is wearing a backpack * one person is holding a camera * one person is taking pictures * one person is looking through binoculars * one person is pointing at something in the distance * one person is smiling and laughing * one person is sitting on a rock * one person is standing on a rock * one person is walking along the edge of the cliff * one person is taking a photo with their camera * one person is looking through binoculars * one person is pointing at something in the distance * one person is smiling and laughing * one person is sitting on a rock * one person is standing on a rock * one person is walking along the edge of the cliff * one person is taking a photo with their camera * one person is looking through binoculars * one person is pointing at something in the distance * one person is smiling and laughing * one person is sitting on a rock * one person is standing on a rock * one person is walking along the edge of the cliff * one person is taking a photo with their camera * one person is looking through binoculars * one person is pointing at something in the distance * one person is smiling and laughing * one person is sitting on a rock * one person is standing on a rock * one person is walking along the edge of the cliff * one person is taking a photo with their camera * one person is looking through binoculars * one person is pointing at something in the distance * one person is smiling and laughing * one person is sitting on a rock * one person is standing on a rock * one person is walking along the edge of the cliff * one person is taking a photo with their camera * one person is looking through binoculars * one person is pointing at something in the distance * one person is smiling and laughing * one person is sitting on a rock * one person is standing on a rock * one person is walking along the edge of,2025-06-24T22:20:12-04:00,true
+11-blue-sneakers-blacklight.jpg,"10. The environment appears to be indoors, possibly at night or in dim lighting","1. Purple background 2. Blue shoes with white soles 3. Red laces on shoes 4. Person wearing jeans 5. Person sitting down 6. Person has a foot up 7. Person is resting their feet on another person's lap 8. Person is relaxed and comfortable 9. The atmosphere is casual and laid-back 10. The environment appears to be indoors, possibly at night or in dim lighting",2025-06-24T22:20:15-04:00,true
+12-winter-jackets-uv-light.jpg,"9. The environment is indoors, possibly at night due to the artificial lighting.","1. Man standing in blue jacket with a beard. 2. Man holding a black object that says ""BARK"". 3. A man sitting on a chair looking at another man. 4. The man is wearing a gray shirt under his jacket. 5. There are two people in the image. 6. The standing man has a surprised expression on his face. 7. The seated man appears to be observing the other man. 8. The background features a wall with lights and plants. 9. The environment is indoors, possibly at night due to the artificial lighting. 10. The scene's mood or atmosphere seems mysterious and intriguing.",2025-06-24T22:20:19-04:00,true
+13-couple-train-selfie.jpg,"1. Two people
+2. Seated on a train
+3. Smiling
+4. Posing for photo
+5. Woman in red jacket
+6. Man in brown sweater
+7. Black seat
+8. Gray headrest
+9. Train interior
+10. Lighting is bright
+11. Time of day is indeterminable from image alone
+12. Scene has a friendly and relaxed atmosphere",1. Two people 2. Seated on a train 3. Smiling 4. Posing for photo 5. Woman in red jacket 6. Man in brown sweater 7. Black seat 8. Gray headrest 9. Train interior 10. Lighting is bright 11. Time of day is indeterminable from image alone 12. Scene has a friendly and relaxed atmosphere,2025-06-24T22:20:22-04:00,true
+14-freddie-mercury-statue.jpg,"* statue, bronze, man with arms outstretched, legs bent at knees, standing on a stone pedestal, surrounded by trees and grass, in front of a building with windows, under clear blue sky, daytime, sunny weather, peaceful mood."," * statue, bronze, man with arms outstretched, legs bent at knees, standing on a stone pedestal, surrounded by trees and grass, in front of a building with windows, under clear blue sky, daytime, sunny weather, peaceful mood.",2025-06-24T22:20:24-04:00,true
+15-red-eyes-costume-display.jpg,"* Red, black, white, gold, silver, blue, green, yellow, pink, orange, brown, gray, purple, teal, red, black, white, gold, silver, blue, green, yellow, pink, orange, brown, gray, purple, teal."," * Red, black, white, gold, silver, blue, green, yellow, pink, orange, brown, gray, purple, teal, red, black, white, gold, silver, blue, green, yellow, pink, orange, brown, gray, purple, teal. * Mannequin, doll, display case, glass box, shelf, stand, wall, floor, ceiling, lights, curtains, decorations, ornaments, ribbons, bows, buttons, zippers, straps, buckles, belts, hats, shoes, socks, gloves, boots, sandals, rings, necklaces, earrings, bracelets, watches, ties, scarves, vests, jackets, coats, suits, pants, skirts, dresses, shirts, blouses, sweaters, robes, capes, cloaks, tunics, leggings, stockings, slippers, sandals, boots, shoes, socks, gloves, hats. * 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 6",2025-06-24T22:20:35-04:00,true
+16-highland-cattle-pen.jpg,"* Brown, horned animal with curved horns on its head","* Brown, horned animal with curved horns on its head * Standing in a dirt field * A few white poles sticking out of the ground nearby * The animal appears to be standing still * The environment is dry and dusty * The time of day is sunny * The scene has a peaceful, serene atmosphere",2025-06-24T22:20:37-04:00,true
+17-european-town-rooftop-view.jpg,"* Red brick buildings with white trim
+* A long roof overlooking a city
+* Several chimneys on the roof
+* A few windows on the building
+* The sky is clear and blue
+* The sun is shining brightly
+* The scene has an old-world charm
+* The mood of the image is peaceful and serene", * Red brick buildings with white trim * A long roof overlooking a city * Several chimneys on the roof * A few windows on the building * The sky is clear and blue * The sun is shining brightly * The scene has an old-world charm * The mood of the image is peaceful and serene,2025-06-24T22:20:40-04:00,true
+18-poppy-seed-cake-slices.jpg,"1. Bread slices, toasted, with sesame seeds on top.","1. Bread slices, toasted, with sesame seeds on top. 2. A yellow pickle slice between two pieces of bread. 3. The tray is made of metal. 4. There are at least three pieces of bread visible in the image. 5. The environment appears to be indoors, possibly a kitchen or restaurant setting. 6. The lighting seems bright and evenly distributed across the scene. 7. The time of day cannot be determined from the image alone. 8. The mood of the scene is casual and appetizing, with the focus on the sandwiches.",2025-06-24T22:20:43-04:00,true
+19-louvre-pyramid-courtyard.jpg,"* Eiffel Tower, a large white structure with a lattice-like design at its center"," * Eiffel Tower, a large white structure with a lattice-like design at its center * Louvre Museum, a grand building with many windows on all sides * People walking around in front of the buildings * A few people carrying bags and wearing backpacks * The sky is overcast and gray * The ground appears wet or damp * The scene has an airy and open atmosphere * The mood is calm and serene",2025-06-24T22:20:46-04:00,true
+20-woman-admiring-classical-statue.jpg,"* statue, marble, white","* statue, marble, white * woman, red jacket, brown hair braided * smile, happy expression * background, wall with text in black and gold lettering * museum setting, indoor environment * daytime lighting, natural sunlight * serene atmosphere, calm and peaceful",2025-06-24T22:20:49-04:00,true
+21-jeweled-royal-crown-display.jpg,"* A large, ornate crown with jewels in various colors including red, blue, green, yellow, orange, pink, white, silver, gold, black, and purple.","* A large, ornate crown with jewels in various colors including red, blue, green, yellow, orange, pink, white, silver, gold, black, and purple. * The crown is displayed on a stand. * There are people present in the background who appear to be looking at the crown. * One person has their arm around another person's waist. * The environment appears to be indoors with a room that has gold walls, suggesting it could be a museum or a palace. * The time of day is not clear from the image. * The mood of the scene seems to be one of admiration and fascination as people gather around the beautifully crafted crown.",2025-06-24T22:20:52-04:00,true
+22-catacomb-skull-bone-wall.jpg,"* Muted, dark tones","* Skulls * Dark brown color * Many skulls * Stacked on top of each other * Sunlight shining through cracks in wall * Shadowy area with no sunlight * Muted, dark tones * Atmosphere: somber",2025-06-24T22:20:54-04:00,true
+23-catacomb-ossuary-plaque.jpg,"* stone wall with boulders on it
+* black sign with white text
+* French language
+* historical reference to Nicolas-Joseph Des Champagnes
+* mention of transferring de la Loucambes en les Catacombes
+* time period between 1839 and 1765",* stone wall with boulders on it * black sign with white text * French language * historical reference to Nicolas-Joseph Des Champagnes * mention of transferring de la Loucambes en les Catacombes * time period between 1839 and 1765,2025-06-24T22:20:56-04:00,true
+24-forest-waterfall-moss-covered.jpg,"* tree trunk
+* moss
+* waterfall
+* rocks
+* greenery
+* forest
+* stream
+* white water
+* gray sky
+* dark brown bark
+* yellow leaves
+* red leaves
+* light and shadow
+* peaceful
+* serene",* tree trunk * moss * waterfall * rocks * greenery * forest * stream * white water * gray sky * dark brown bark * yellow leaves * red leaves * light and shadow * peaceful * serene,2025-06-24T22:20:58-04:00,true
+25-dog-playing-in-river.jpg,"* Dog
+* Red bandana
+* Log
+* Rocks
+* Water
+* Shallow stream
+* Sunny day
+* Clear water
+* Bright lighting
+* Happy dog
+* Calm environment
+* Playful atmosphere", * Dog * Red bandana * Log * Rocks * Water * Shallow stream * Sunny day * Clear water * Bright lighting * Happy dog * Calm environment * Playful atmosphere,2025-06-24T22:20:59-04:00,true
+26-outdoor-cedar-plank-cooking.jpg,"* man standing with guitar
+* man in gray jacket
+* man holding wooden object
+* woman sitting on chair
+* woman wearing yellow shirt
+* man playing guitar
+* group of people sitting around fire pit
+* camping site
+* blue tent behind man
+* white canopy above table
+* brown bench under tree
+* green grass in background
+* gray sky overhead
+* warm and cozy atmosphere
+* outdoor gathering with friends or family",* man standing with guitar * man in gray jacket * man holding wooden object * woman sitting on chair * woman wearing yellow shirt * man playing guitar * group of people sitting around fire pit * camping site * blue tent behind man * white canopy above table * brown bench under tree * green grass in background * gray sky overhead * warm and cozy atmosphere * outdoor gathering with friends or family,2025-06-24T22:21:02-04:00,true
+27-woman-mountain-summit-view.jpg,"1. Woman, blonde, wearing black tank top, standing on rocky cliff overlooking mountains.","1. Woman, blonde, wearing black tank top, standing on rocky cliff overlooking mountains. 2. Mountains in the distance, covered with trees. 3. Blue sky above, white clouds scattered across it. 4. Sunny day, clear weather conditions. 5. The woman appears to be deep in thought or contemplation. 6. Scenic view of nature's beauty and tranquility. 7. The atmosphere is peaceful and serene.",2025-06-24T22:21:05-04:00,true
+28-theatrical-stage-projection-design.jpg,"1. Blue, white, black, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, p","1. Blue, white, black, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, pink, black, blue, silver, gold, white, red, orange, gray, green, yellow, brown, purple, p",2025-06-24T22:21:16-04:00,true
+29-excited-black-brown-dog.jpg,"* Dog with black and tan fur
+* Pant leg visible on person's leg
+* Red blanket under dog
+* Blue jeans of person holding dog
+* Person sitting on couch
+* Dog panting with mouth open
+* Dog looking up at camera
+* Dog's eyes are blue
+* Dog has brown nose and ears
+* Dog is black and tan color
+* Dog appears to be happy or excited
+* Couch underneath person and dog
+* Person wearing jeans
+* Person sitting on couch
+* Dog laying down on blanket
+* Blue blanket under dog
+* Red blanket over dog
+* Dog's mouth is open
+* Dog has brown nose
+* Dog has tan ears
+* Dog has tan paws
+* Dog has black fur
+* Dog has tan fur
+* Person holding dog
+* Person sitting on couch
+* Couch with blue blanket under dog and red blanket over dog
+* Red blanket covering dog
+* Blue jeans of person holding dog
+* Person wearing blue jeans
+* Person sitting on couch
+* Dog laying down on blanket
+* Blue blanket under dog
+* Red blanket over dog
+* Dog's mouth is open
+* Dog has brown nose and ears
+* Dog appears to be happy or excited
+* Couch underneath person and dog
+* Person wearing jeans
+* Person sitting on couch
+* Dog laying down on blanket
+* Blue blanket under dog
+* Red blanket over dog
+* Dog's mouth is open
+* Dog has brown nose and ears
+* Dog appears to be happy or excited
+* Couch underneath person and dog
+* Person wearing jeans
+* Person sitting on couch
+* Dog laying down on blanket
+* Blue blanket under dog
+* Red blanket over dog
+* Dog's mouth is open
+* Dog has brown nose and ears
+* Dog appears to be happy or excited
+* Couch underneath person and dog
+* Person wearing jeans
+* Person sitting on couch
+* Dog laying down on blanket
+* Blue blanket under dog
+* Red blanket over dog
+* Dog's mouth is open
+* Dog has brown nose and ears
+* Dog appears to be happy or excited",* Dog with black and tan fur * Pant leg visible on person's leg * Red blanket under dog * Blue jeans of person holding dog * Person sitting on couch * Dog panting with mouth open * Dog looking up at camera * Dog's eyes are blue * Dog has brown nose and ears * Dog is black and tan color * Dog appears to be happy or excited * Couch underneath person and dog * Person wearing jeans * Person sitting on couch * Dog laying down on blanket * Blue blanket under dog * Red blanket over dog * Dog's mouth is open * Dog has brown nose * Dog has tan ears * Dog has tan paws * Dog has black fur * Dog has tan fur * Person holding dog * Person sitting on couch * Couch with blue blanket under dog and red blanket over dog * Red blanket covering dog * Blue jeans of person holding dog * Person wearing blue jeans * Person sitting on couch * Dog laying down on blanket * Blue blanket under dog * Red blanket over dog * Dog's mouth is open * Dog has brown nose and ears * Dog appears to be happy or excited * Couch underneath person and dog * Person wearing jeans * Person sitting on couch * Dog laying down on blanket * Blue blanket under dog * Red blanket over dog * Dog's mouth is open * Dog has brown nose and ears * Dog appears to be happy or excited * Couch underneath person and dog * Person wearing jeans * Person sitting on couch * Dog laying down on blanket * Blue blanket under dog * Red blanket over dog * Dog's mouth is open * Dog has brown nose and ears * Dog appears to be happy or excited * Couch underneath person and dog * Person wearing jeans * Person sitting on couch * Dog laying down on blanket * Blue blanket under dog * Red blanket over dog * Dog's mouth is open * Dog has brown nose and ears * Dog appears to be happy or excited ,2025-06-24T22:21:29-04:00,true
+30-woman-smiling-on-boat.jpg,"* Woman with braided hair in a red coat
+* Blue shirt underneath the coat
+* White railing next to her
+* Clear blue sky above
+* Water body with a ship in the distance
+* Two people on a boat
+* Bright sunny day
+* Happy and relaxed atmosphere", * Woman with braided hair in a red coat * Blue shirt underneath the coat * White railing next to her * Clear blue sky above * Water body with a ship in the distance * Two people on a boat * Bright sunny day * Happy and relaxed atmosphere,2025-06-24T22:21:31-04:00,true
+31-wildebeest-herd-grazing-savanna.jpg,"* Animals, brown, black, white, gray, herd, field, dry grass, sky, clouds, daytime, peaceful, natural setting, wildlife gathering, grazing, socializing, resting, roaming, exploring, foraging, feeding, drinking, migrating, traveling, moving around, walking, running, standing, sitting, lying down, interacting, communicating, playing, fighting, mating, birthing, nurturing, raising offspring, protecting territory, defending against predators, searching for food and water sources, seeking shelter or resting spots, avoiding harsh weather conditions, escaping from danger, finding new areas to inhabit, establishing dominance hierarchies, forming social bonds, maintaining family units, raising young, teaching survival skills, ensuring reproductive success, contributing to ecosystem health and stability."," * Animals, brown, black, white, gray, herd, field, dry grass, sky, clouds, daytime, peaceful, natural setting, wildlife gathering, grazing, socializing, resting, roaming, exploring, foraging, feeding, drinking, migrating, traveling, moving around, walking, running, standing, sitting, lying down, interacting, communicating, playing, fighting, mating, birthing, nurturing, raising offspring, protecting territory, defending against predators, searching for food and water sources, seeking shelter or resting spots, avoiding harsh weather conditions, escaping from danger, finding new areas to inhabit, establishing dominance hierarchies, forming social bonds, maintaining family units, raising young, teaching survival skills, ensuring reproductive success, contributing to ecosystem health and stability.",2025-06-24T22:21:36-04:00,true
+32-urban-fire-smoke-city-skyline.jpg,"* Sky is blue
+* Buildings are colorful
+* Smoke is black
+* Trees are green
+* Cars are parked
+* People are walking
+* Construction crane is present
+* The city has a mix of old and new buildings
+* The scene appears to be in the middle of the day
+* The atmosphere seems busy and bustling", * Sky is blue * Buildings are colorful * Smoke is black * Trees are green * Cars are parked * People are walking * Construction crane is present * The city has a mix of old and new buildings * The scene appears to be in the middle of the day * The atmosphere seems busy and bustling,2025-06-24T22:21:39-04:00,true
+33-seabird-flying-over-pine-trees.jpg,"* bird, black, flying, tree, sky, cloudy, daytime, peaceful, serene, natural, outdoor, open space, clear blue sky, white clouds, gray sky, overcast, light breeze, calm, quiet, undisturbed, wildlife, nature, tranquility, solitude, freedom, soaring, unrestrained, airborne, gliding, effortless, graceful, elegant, poised, in motion, dynamic, active, lively, energetic, vibrant, colorful, bright, sunny, cheerful, joyful, happy, lighthearted, carefree, playful, spirited, enthusiastic, passionate, intense, focused, determined, driven, motivated, ambitious, goal-oriented, purposeful, intentional, deliberate, thoughtful, reflective, contemplative, introspective, mindful, present, aware, conscious, attentive, observant, watchful, vigilant, alert, cautious, careful, prudent, wise, knowledgeable, learned, educated, intellectual, scholarly, academic, professional, career-oriented, work-focused, productivity, efficiency, effectiveness, performance, output, results, achievement, success, accomplishment, progress, advancement, growth, development, improvement, enhancement, optimization, refinement, perfection, excellence, mastery, expertise, skill, talent, ability, potential, capability, competency, proficiency, experience, practice, training, learning, education, knowledge, wisdom, insight, understanding, comprehension, awareness, consciousness, mindfulness, attentiveness, focus, concentration, dedication, commitment, responsibility, accountability, reliability, trustworthiness, integrity, honesty, transparency, openness, communication, expression, creativity, innovation, originality, uniqueness, individuality, personalization, customization, adaptation, flexibility, versatility, resilience, durability, strength, endurance, stamina, perseverance, persistence, determination, willpower, motivation, drive, ambition, passion, enthusiasm, excitement, joy, happiness, satisfaction, fulfillment, contentment, gratitude, appreciation, admiration,"," * bird, black, flying, tree, sky, cloudy, daytime, peaceful, serene, natural, outdoor, open space, clear blue sky, white clouds, gray sky, overcast, light breeze, calm, quiet, undisturbed, wildlife, nature, tranquility, solitude, freedom, soaring, unrestrained, airborne, gliding, effortless, graceful, elegant, poised, in motion, dynamic, active, lively, energetic, vibrant, colorful, bright, sunny, cheerful, joyful, happy, lighthearted, carefree, playful, spirited, enthusiastic, passionate, intense, focused, determined, driven, motivated, ambitious, goal-oriented, purposeful, intentional, deliberate, thoughtful, reflective, contemplative, introspective, mindful, present, aware, conscious, attentive, observant, watchful, vigilant, alert, cautious, careful, prudent, wise, knowledgeable, learned, educated, intellectual, scholarly, academic, professional, career-oriented, work-focused, productivity, efficiency, effectiveness, performance, output, results, achievement, success, accomplishment, progress, advancement, growth, development, improvement, enhancement, optimization, refinement, perfection, excellence, mastery, expertise, skill, talent, ability, potential, capability, competency, proficiency, experience, practice, training, learning, education, knowledge, wisdom, insight, understanding, comprehension, awareness, consciousness, mindfulness, attentiveness, focus, concentration, dedication, commitment, responsibility, accountability, reliability, trustworthiness, integrity, honesty, transparency, openness, communication, expression, creativity, innovation, originality, uniqueness, individuality, personalization, customization, adaptation, flexibility, versatility, resilience, durability, strength, endurance, stamina, perseverance, persistence, determination, willpower, motivation, drive, ambition, passion, enthusiasm, excitement, joy, happiness, satisfaction, fulfillment, contentment, gratitude, appreciation, admiration,",2025-06-24T22:21:50-04:00,true
+34-humpback-whale-breaching-ocean.jpg,"* Large whale, black and white in color"," * Large whale, black and white in color * Riding on top of another large whale * Water, dark blue with ripples * Sunlight reflecting off water surface * Clear sky above * Calm ocean environment * Serene atmosphere",2025-06-24T22:21:52-04:00,true
+35-whale-tail-diving-forest-coastline.jpg,"* Object: whale, color: gray, action: swimming, location: water"," * Object: whale, color: gray, action: swimming, location: water * Object: rocky shore, color: brown, location: background * Background: trees, color: green, weather: sunny * Time of day: afternoon * Scene's mood: serene",2025-06-24T22:21:54-04:00,true
+36-quiche-held-coastal-landscape.jpg,"4. The person is standing outdoors, near the water.","1. Person holding a sandwich in their right hand. 2. The sandwich is made with white bread. 3. The sandwich has green toppings visible on top. 4. The person is standing outdoors, near the water. 5. The background shows a grassy area and blue sky. 6. There are no other people or objects in the image. 7. The weather appears to be sunny with clear skies. 8. The lighting suggests it's daytime. 9. The scene has a calm and peaceful atmosphere.",2025-06-24T22:21:57-04:00,true
+37-urban-deer-family-crossing-street.jpg,"* Three brown deer walking on a street
+* Two cars parked in front of a building
+* A black car with POWER PARKING sign on it
+* White house behind the parking lot
+* Black fence around the parking area
+* The scene is set during daytime
+* The atmosphere is peaceful and serene"," * Three brown deer walking on a street * Two cars parked in front of a building * A black car with ""POWER PARKING"" sign on it * White house behind the parking lot * Black fence around the parking area * The scene is set during daytime * The atmosphere is peaceful and serene",2025-06-24T22:21:59-04:00,true
+38-sunset-reflection-over-water.jpg,"* sunset
+* sky
+* horizon
+* water
+* reflection
+* silhouette
+* trees
+* buildings
+* birds
+* clouds
+* orange
+* yellow
+* blue
+* green
+* brown
+* white
+* black
+* red
+* light
+* dark
+* peaceful
+* serene
+* calm
+* quiet
+* still
+* tranquil
+* reflective
+* vibrant
+* warm
+* cool
+* bright
+* dim
+* clear
+* hazy
+* misty
+* foggy
+* sunny
+* cloudy
+* rainy
+* snowy
+* dry
+* wet
+* lush
+* barren
+* rocky
+* sandy
+* smooth
+* rough
+* calm
+* turbulent
+* gentle
+* harsh
+* soft
+* hard
+* light
+* shadow
+* brightness
+* darkness
+* warmth
+* coolness
+* vibrancy
+* dullness
+* clarity
+* obscurity
+* tranquility
+* chaos
+* harmony
+* balance
+* symmetry
+* asymmetry
+* order
+* disorder
+* peace
+* conflict
+* love
+* hate
+* joy
+* sadness
+* fear
+* hope
+* despair
+* life
+* death
+* birth
+* growth
+* decay
+* creation
+* destruction
+* beauty
+* ugliness
+* perfection
+* imperfection
+* good
+* evil
+* right
+* wrong
+* truth
+* lies
+* reality
+* illusion
+* existence
+* nonexistence
+* life
+* death
+* living
+* nonliving
+* animate
+* inanimate
+* natural
+* artificial
+* organic
+* synthetic
+* realistic
+* abstract
+* figurative
+* literal
+* symbolic
+* metaphorical
+* poetic
+* prosaic
+* scientific
+* artistic
+* practical
+* theoretical
+* empirical
+* imaginative
+* rational
+* emotional
+* logical
+* intuitive
+* spiritual
+* material
+* physical
+* mental
+* social
+* personal
+* collective
+* individual
+* universal
+* particular", * sunset * sky * horizon * water * reflection * silhouette * trees * buildings * birds * clouds * orange * yellow * blue * green * brown * white * black * red * light * dark * peaceful * serene * calm * quiet * still * tranquil * reflective * vibrant * warm * cool * bright * dim * clear * hazy * misty * foggy * sunny * cloudy * rainy * snowy * dry * wet * lush * barren * rocky * sandy * smooth * rough * calm * turbulent * gentle * harsh * soft * hard * light * shadow * brightness * darkness * warmth * coolness * vibrancy * dullness * clarity * obscurity * tranquility * chaos * harmony * balance * symmetry * asymmetry * order * disorder * peace * conflict * love * hate * joy * sadness * fear * hope * despair * life * death * birth * growth * decay * creation * destruction * beauty * ugliness * perfection * imperfection * good * evil * right * wrong * truth * lies * reality * illusion * existence * nonexistence * life * death * living * nonliving * animate * inanimate * natural * artificial * organic * synthetic * realistic * abstract * figurative * literal * symbolic * metaphorical * poetic * prosaic * scientific * artistic * practical * theoretical * empirical * imaginative * rational * emotional * logical * intuitive * spiritual * material * physical * mental * social * personal * collective * individual * universal * particular,2025-06-24T22:22:06-04:00,true
+39-orange-sunset-lake-silhouette.jpg,"* Sunset
+* Water
+* Sky
+* Reflection
+* Silhouette
+* Trees
+* Hills
+* Buildings
+* Shadow
+* Light
+* Calmness
+* Serenity
+* Peacefulness
+* Tranquility
+* Nature", * Sunset * Water * Sky * Reflection * Silhouette * Trees * Hills * Buildings * Shadow * Light * Calmness * Serenity * Peacefulness * Tranquility * Nature,2025-06-24T22:22:07-04:00,true
+40-sleeping-dog-close-up-portrait.jpg,"* Dog
+* Black and brown fur
+* Paw
+* Blanket
+* Orange blanket
+* Gray blanket
+* Red blanket
+* Blue blanket
+* White blanket
+* Purple blanket
+* Brown blanket
+* Yellow blanket
+* Green blanket
+* Light blue blanket
+* Dark blue blanket
+* Black and white dog bed
+* Dog sleeping on a blanket
+* Dog's paw resting on the blanket
+* Dog's head resting on the blanket
+* Dog's eyes closed in relaxation
+* Dog's nose close to the ground
+* Dog's mouth slightly open
+* Dog's ears perked up
+* Dog's tail curled around body
+* Dog's fur is wet and shiny
+* Dog's fur is dry and fluffy
+* Dog's fur is matted and tangled
+* Dog's fur is clean and well-groomed
+* Dog's fur is dirty and unkempt
+* Dog's fur is short and smooth
+* Dog's fur is long and shaggy
+* Dog's fur is curly and dense
+* Dog's fur is straight and sleek
+* Dog's fur is thick and fluffy
+* Dog's fur is thin and sparse
+* Dog's fur is soft and silky
+* Dog's fur is rough and coarse
+* Dog's fur is shiny and glossy
+* Dog's fur is dull and lifeless
+* Dog's fur is dirty and matted
+* Dog'retired from service.",* Dog * Black and brown fur * Paw * Blanket * Orange blanket * Gray blanket * Red blanket * Blue blanket * White blanket * Purple blanket * Brown blanket * Yellow blanket * Green blanket * Light blue blanket * Dark blue blanket * Black and white dog bed * Dog sleeping on a blanket * Dog's paw resting on the blanket * Dog's head resting on the blanket * Dog's eyes closed in relaxation * Dog's nose close to the ground * Dog's mouth slightly open * Dog's ears perked up * Dog's tail curled around body * Dog's fur is wet and shiny * Dog's fur is dry and fluffy * Dog's fur is matted and tangled * Dog's fur is clean and well-groomed * Dog's fur is dirty and unkempt * Dog's fur is short and smooth * Dog's fur is long and shaggy * Dog's fur is curly and dense * Dog's fur is straight and sleek * Dog's fur is thick and fluffy * Dog's fur is thin and sparse * Dog's fur is soft and silky * Dog's fur is rough and coarse * Dog's fur is shiny and glossy * Dog's fur is dull and lifeless * Dog's fur is dirty and matted * Dog'retired from service.,2025-06-24T22:22:12-04:00,true
+41-black-dog-on-rocky-riverbed.jpg,"* black dog
+* gray rocks
+* brown stick on rock
+* dark background
+* light source from top left corner
+* daytime
+* peaceful atmosphere",* black dog * gray rocks * brown stick on rock * dark background * light source from top left corner * daytime * peaceful atmosphere,2025-06-24T22:22:13-04:00,true
+42-abandoned-blue-wheelbarrow-forest.jpg,"* The bicycle has two wheels, a frame, handlebars, pedals, and chains."," * A rusted bicycle with a blue tarp on its left side lying upside down in a rocky area surrounded by trees. * The bicycle has two wheels, a frame, handlebars, pedals, and chains. * There are several rocks of various sizes scattered around the bicycle. * A pile of branches is located near the bicycle. * The background consists of trees with green leaves. * The lighting appears to be natural daylight. * The scene has a rustic and abandoned atmosphere.",2025-06-24T22:22:15-04:00,true
+43-purple-foxglove-with-raindrops.jpg,"* pink, purple, white flowers","* pink, purple, white flowers * water drops on petals * green leaves in background * blurry background * outdoor setting * daytime * serene atmosphere",2025-06-24T22:22:16-04:00,true
+44-foxglove-flowers-forest-meadow.jpg,"* Purple flowers
+* Green leaves
+* Tree branches
+* Sunlight filtering through trees
+* Bright daytime
+* Peaceful atmosphere",* Purple flowers * Green leaves * Tree branches * Sunlight filtering through trees * Bright daytime * Peaceful atmosphere,2025-06-24T22:22:17-04:00,true
+45-hiker-with-dog-forest-trail.jpg,"* Person wearing a white shirt and black pants
+* Person holding a frisbee in their right hand
+* Dog standing on its hind legs
+* Yellow rail behind person and dog
+* Trees surrounding the area
+* Daytime with sunlight filtering through trees
+* Calm and peaceful atmosphere", * Person wearing a white shirt and black pants * Person holding a frisbee in their right hand * Dog standing on its hind legs * Yellow rail behind person and dog * Trees surrounding the area * Daytime with sunlight filtering through trees * Calm and peaceful atmosphere,2025-06-24T22:22:18-04:00,true
+46-aerial-view-coastal-town.jpg,"* The wing is angled slightly upwards, suggesting it's at a high altitude."," * A white airplane wing with a black tip is flying over a city. * The wing is attached to an unseen plane. * The wing appears to be moving from left to right in front of the camera. * The wing is angled slightly upwards, suggesting it's at a high altitude. * Below the wing, there are numerous buildings and roads. * Buildings vary in size and color; some appear taller than others. * Roads crisscross between buildings, forming a complex network of streets. * The city is densely populated with many trees scattered throughout. * A river can be seen flowing through the city. * The sky above the city is clear and blue. * There are no visible people or animals in the image. * The overall mood of the scene suggests a peaceful day in a bustling city, with the airplane wing adding an element of motion and travel to the otherwise static urban landscape.",2025-06-24T22:22:21-04:00,true
+47-office-party-snack-table.jpg,"* Two bowls of fruit - one blueberry, one orange"," * A table with various food items on it * Two bowls of fruit - one blueberry, one orange * A white sign that says ""Bonjour 1e"" in black letters * A vase filled with flowers * A window with a view of the city * The scene is set in an indoor room * The atmosphere appears to be festive and welcoming",2025-06-24T22:22:23-04:00,true
+48-elephant-art-gallery-display.jpg,"* The scene has a surreal, artistic atmosphere"," * Elephant head on woman's body * Blue dress on elephant head * Pink feathers on elephant head * Woman wearing blue dress * Man taking picture of elephant head * Black background with white wall * Two pictures hanging side by side * One person in the photo * Elephant head and woman's body are the main focus * The scene has a surreal, artistic atmosphere",2025-06-24T22:22:25-04:00,true
+49-restaurant-dinner-gathering.jpg,"* Food: various types including meatballs, bread, and dessert","* People: 4 * Plates: 12 * Food: various types including meatballs, bread, and dessert * Utensils: multiple forks and knives * Drinks: glasses with liquid in them * Tablecloth: white * Lighting: dim * Atmosphere: lively and social",2025-06-24T22:22:26-04:00,true
+50-war-memorial-statue-night.jpg,"* Monument, statue, fountain, building, sky, nighttime, dark blue sky, illuminated building, people, cars, city lights, streetlamp, trees, park bench, pedestrians, traffic light, fire hydrant, water feature, sculpture, bronze, stone, marble, granite, concrete, metal, glass, wood, brick, cobblestone, paving stones, sidewalk, curb, road, street, intersection, roundabout, plaza, square, park, garden, greenery, foliage, flowers, trees, bushes, grass, lawn, hedges, fence, gate, wall, archway, door, window, balcony, roof, chimney, skylight, dome, cupola, tower, spire, bell, clock, sundial, weather vane, wind indicator, compass rose, astronomical clock, calendar, hourglass, timepiece, pendulum, gear, cogwheel, escapement, balance wheel, spring, coil, magnet, electromagnet, solenoid, capacitor, resistor, transistor, diode, LED, OLED, LCD, touchscreen, camera, microphone, speaker, amplifier, headphones, earbuds, stereo system, radio, television, projector, screen, monitor, keyboard, mouse, trackpad, joystick, controller, steering wheel, pedal, brake, accelerator, gear shift, clutch, handbrake, parking brake, seat belt, airbag, helmet, gloves, boots, shoes, socks, pants, shorts, skirt, dress, suit, jacket, sweater, shirt, blouse, t-shirt, tank top, sports jersey, cap, hat, wig, mask, costume, makeup, perfume, cologne, deodorant, soap, lotion, sunscreen, moisturizer, toner, cleanser, toothpaste, toothbrush, dental floss, mouthwash, gum, breath strips, candy, snack, meal, drink, beverage, juice, soda, coffee, tea, hot chocolate, smooth"," * Monument, statue, fountain, building, sky, nighttime, dark blue sky, illuminated building, people, cars, city lights, streetlamp, trees, park bench, pedestrians, traffic light, fire hydrant, water feature, sculpture, bronze, stone, marble, granite, concrete, metal, glass, wood, brick, cobblestone, paving stones, sidewalk, curb, road, street, intersection, roundabout, plaza, square, park, garden, greenery, foliage, flowers, trees, bushes, grass, lawn, hedges, fence, gate, wall, archway, door, window, balcony, roof, chimney, skylight, dome, cupola, tower, spire, bell, clock, sundial, weather vane, wind indicator, compass rose, astronomical clock, calendar, hourglass, timepiece, pendulum, gear, cogwheel, escapement, balance wheel, spring, coil, magnet, electromagnet, solenoid, capacitor, resistor, transistor, diode, LED, OLED, LCD, touchscreen, camera, microphone, speaker, amplifier, headphones, earbuds, stereo system, radio, television, projector, screen, monitor, keyboard, mouse, trackpad, joystick, controller, steering wheel, pedal, brake, accelerator, gear shift, clutch, handbrake, parking brake, seat belt, airbag, helmet, gloves, boots, shoes, socks, pants, shorts, skirt, dress, suit, jacket, sweater, shirt, blouse, t-shirt, tank top, sports jersey, cap, hat, wig, mask, costume, makeup, perfume, cologne, deodorant, soap, lotion, sunscreen, moisturizer, toner, cleanser, toothpaste, toothbrush, dental floss, mouthwash, gum, breath strips, candy, snack, meal, drink, beverage, juice, soda, coffee, tea, hot chocolate, smooth",2025-06-24T22:22:33-04:00,true
+51-green-dessert-molecular-spheres.jpg,"* A white plate with food on it
+* Green jelly beans
+* Yellow jelly beans
+* Brown mustard
+* Silver spoon with a black handle
+* The plate is on a table
+* There are no people in the image
+* The objects are stationary
+* The scene has a casual and relaxed atmosphere", * A white plate with food on it * Green jelly beans * Yellow jelly beans * Brown mustard * Silver spoon with a black handle * The plate is on a table * There are no people in the image * The objects are stationary * The scene has a casual and relaxed atmosphere,2025-06-24T22:22:35-04:00,true
+52-rose-shaped-dessert-edible-flower.jpg,"* Objects: cake, plate, napkin, fork, spoon, knife, glass, bowl, cup, bottle, vase, book, pen, pencil, eraser, ruler, calculator, computer mouse, keyboard, monitor, speaker, headphones, phone, charger, power outlet, lamp, clock, wall, window, door, chair, table, desk, shelf, cabinet, drawer, closet, bed, pillow, blanket, curtain, rug, carpet, mat, towel, sink, faucet, showerhead, mirror, light switch, thermostat, lock, key, handle, doorknob, hinge, screw, bolt, nut, washer, gasket, seal, caulk, putty, paint, brush, roller, tray, bucket, sponge, toilet paper, soap, shampoo, conditioner, lotion, sunscreen, sunglasses, hat, gloves, scarf, coat, sweater, pants, skirt, dress, shoes, socks, sandals, slippers, flip-flops, earrings, necklace, bracelet, ring, watch, keychain, wallet, purse, backpack, handbag, suitcase, briefcase, toolbox, gardening tools, sports equipment, musical instruments, art supplies, books, magazines, newspapers, bills, receipts, tickets, passports, ID cards, credit cards, driver's license, health insurance card, library card, gym membership, parking permit, fishing license, hunting tag, voting registration form, marriage certificate, birth certificate, death certificate, will, trust, power of attorney, living will, advance directive, organ donor card, blood type, vaccination records, medical history, prescriptions, medications, supplements, vitamins, minerals, herbs, spices, teas, coffees, wines, beers, spirits, ciders, bitters, amari, soda, juice, water, milk, eggs, cheese, butter, cream, yogurt, ice cream, chocolate, vanilla, strawberry,","* Objects: cake, plate, napkin, fork, spoon, knife, glass, bowl, cup, bottle, vase, book, pen, pencil, eraser, ruler, calculator, computer mouse, keyboard, monitor, speaker, headphones, phone, charger, power outlet, lamp, clock, wall, window, door, chair, table, desk, shelf, cabinet, drawer, closet, bed, pillow, blanket, curtain, rug, carpet, mat, towel, sink, faucet, showerhead, mirror, light switch, thermostat, lock, key, handle, doorknob, hinge, screw, bolt, nut, washer, gasket, seal, caulk, putty, paint, brush, roller, tray, bucket, sponge, toilet paper, soap, shampoo, conditioner, lotion, sunscreen, sunglasses, hat, gloves, scarf, coat, sweater, pants, skirt, dress, shoes, socks, sandals, slippers, flip-flops, earrings, necklace, bracelet, ring, watch, keychain, wallet, purse, backpack, handbag, suitcase, briefcase, toolbox, gardening tools, sports equipment, musical instruments, art supplies, books, magazines, newspapers, bills, receipts, tickets, passports, ID cards, credit cards, driver's license, health insurance card, library card, gym membership, parking permit, fishing license, hunting tag, voting registration form, marriage certificate, birth certificate, death certificate, will, trust, power of attorney, living will, advance directive, organ donor card, blood type, vaccination records, medical history, prescriptions, medications, supplements, vitamins, minerals, herbs, spices, teas, coffees, wines, beers, spirits, ciders, bitters, amari, soda, juice, water, milk, eggs, cheese, butter, cream, yogurt, ice cream, chocolate, vanilla, strawberry,",2025-06-24T22:22:41-04:00,true
+53-mountain-restaurant-couple-dining.jpg,"* sunny day outside, bright lighting","* two people sitting at a table * man with long brown hair wearing glasses and a gray shirt * woman in a beige sweater smiling at the camera * three drinks on the table - two martinis and one glass of water * mountain range visible through window in background * sunny day outside, bright lighting * cheerful atmosphere with people enjoying their time together",2025-06-24T22:22:43-04:00,true
+54-family-birthday-lunch-patio.jpg,"5. Table with white plates, silverware, glasses, and bottles","1. Man in yellow shirt smiling at camera 2. Woman with long brown hair wearing a blue dress 3. Man in plaid shirt sitting on left side of table 4. Man in black shirt holding burger and fries 5. Table with white plates, silverware, glasses, and bottles 6. Outdoor setting with balcony overlooking ocean 7. Sunny day with clear blue sky 8. People enjoying a meal together at an outdoor restaurant 9. Positive atmosphere of friends or family gathering for a meal",2025-06-24T22:22:45-04:00,true
+55-mountain-restaurant-group-dining.jpg,"* The setting is indoors, possibly in a restaurant or bar","* People sitting at a table with drinks in front of them * A group of friends enjoying their time together * The setting is indoors, possibly in a restaurant or bar * There are mountains visible outside through the window * The lighting suggests it's daytime * The atmosphere appears to be relaxed and social  Tags:  * People, 7, sitting, drinks, table, friends, enjoying, indoors, restaurant/bar, mountains, window, daytime, relaxed, social",2025-06-24T22:22:47-04:00,true
+56-summit-selfie-sunny-snowboard.jpg,"1. Two people
+2. Smiling
+3. Sunny day
+4. Mountainous landscape
+5. Bright sunlight
+6. Clear blue sky
+7. Snow-covered mountains
+8. Happy expression
+9. Outdoor setting
+10. Winter season
+11. Posing for photo
+12. Friendly atmosphere",1. Two people 2. Smiling 3. Sunny day 4. Mountainous landscape 5. Bright sunlight 6. Clear blue sky 7. Snow-covered mountains 8. Happy expression 9. Outdoor setting 10. Winter season 11. Posing for photo 12. Friendly atmosphere,2025-06-24T22:22:49-04:00,true
+57-mountain-hut-group-window-view.jpg,"* 5 people
+* Mountain in background
+* Snowy mountain top
+* Sunny day
+* Happy expression on faces
+* Outdoor setting
+* Winter season
+* Bright sunlight
+* Positive atmosphere",* 5 people * Mountain in background * Snowy mountain top * Sunny day * Happy expression on faces * Outdoor setting * Winter season * Bright sunlight * Positive atmosphere,2025-06-24T22:22:50-04:00,true
+58-rustic-alpine-restaurant-group.jpg,"* Group of 6 people
+* Blue shirts
+* Glasses on tables
+* Wooden table with white paper placemats
+* Silverware on table
+* White wine glasses on table
+* Brown beer tap in background
+* Black and white checkered wallpaper
+* Picture frames hanging on wall
+* Man wearing a green headband
+* People smiling and laughing
+* Restaurant setting with chairs around the table
+* Wooden floor under tables
+* Sunlight streaming through windows
+* Warm and inviting atmosphere",* Group of 6 people * Blue shirts * Glasses on tables * Wooden table with white paper placemats * Silverware on table * White wine glasses on table * Brown beer tap in background * Black and white checkered wallpaper * Picture frames hanging on wall * Man wearing a green headband * People smiling and laughing * Restaurant setting with chairs around the table * Wooden floor under tables * Sunlight streaming through windows * Warm and inviting atmosphere,2025-06-24T22:22:51-04:00,true

@@ -1,0 +1,7 @@
+{
+  "model": "qwen2.5vl:3b",
+  "image_size": 128,
+  "prompt_name": "06-concise-complete",
+  "timestamp": "2025-06-24T12:50:24-04:00",
+  "images_processed": 58
+}

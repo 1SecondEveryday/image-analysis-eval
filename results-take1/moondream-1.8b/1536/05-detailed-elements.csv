@@ -1,0 +1,59 @@
+image_filename,tags,raw_output,timestamp,success
+01-street-meditation-couple.jpg,"0.42, 0.3, 0.69, 0.61","  [0.42, 0.3, 0.69, 0.61]",2025-06-24T16:47:24-04:00,true
+02-graffiti-skate-park.jpg,"ids 0.2, 0.63, 0.39, 0.86","ids [0.2, 0.63, 0.39, 0.86]",2025-06-24T16:47:26-04:00,true
+03-belgian-stew-fries.jpg,"0.01, 0.13, 0.4, 0.3","  [0.01, 0.13, 0.4, 0.3]",2025-06-24T16:47:28-04:00,true
+04-cheese-fondue-dinner.jpg,"0.13, 0.12, 0.44, 0.39","  [0.13, 0.12, 0.44, 0.39]",2025-06-24T16:47:30-04:00,true
+05-snowboarders-mountain-rest.jpg,"ids 0.36, 0.45, 0.5, 0.56","ids [0.36, 0.45, 0.5, 0.56]",2025-06-24T16:47:31-04:00,true
+06-alpine-trail-hiker.jpg,"ids 0.39, 0.48, 0.57, 0.58","ids [0.39, 0.48, 0.57, 0.58]",2025-06-24T16:47:33-04:00,true
+07-restaurant-group-dinner.jpg,"ids 0.13, 0.49, 0.87, 1.0","ids [0.13, 0.49, 0.87, 1.0]",2025-06-24T16:47:35-04:00,true
+08-neon-bar-friends.jpg,"0.25, 0.32, 1.0, 0.87","  [0.25, 0.32, 1.0, 0.87]",2025-06-24T16:47:36-04:00,true
+09-record-store-group-photo.jpg,"ids 0.32, 0.65, 0.49, 0.87","ids [0.32, 0.65, 0.49, 0.87]",2025-06-24T16:47:39-04:00,true
+10-alpine-peaks-vista.jpg,"ids 0.34, 0.66, 0.6, 0.86","ids [0.34, 0.66, 0.6, 0.86]",2025-06-24T16:47:41-04:00,true
+11-blue-sneakers-blacklight.jpg,"0.39, 0.17, 1.0, 0.6","  [0.39, 0.17, 1.0, 0.6]",2025-06-24T16:47:43-04:00,true
+12-winter-jackets-uv-light.jpg,"ids 0.39, 0.23, 0.63, 0.53","ids [0.39, 0.23, 0.63, 0.53]",2025-06-24T16:47:46-04:00,true
+13-couple-train-selfie.jpg,"ids 0.39, 0.22, 0.62, 0.45","ids [0.39, 0.22, 0.62, 0.45]",2025-06-24T16:47:48-04:00,true
+14-freddie-mercury-statue.jpg,"ids 0.39, 0.23, 0.64, 0.6","ids [0.39, 0.23, 0.64, 0.6]",2025-06-24T16:47:51-04:00,true
+15-red-eyes-costume-display.jpg,"0.39, 0.48, 0.6, 0.62","  [0.39, 0.48, 0.6, 0.62]",2025-06-24T16:47:53-04:00,true
+16-highland-cattle-pen.jpg,"ids 0.3, 0.64, 0.65, 0.81","ids [0.3, 0.64, 0.65, 0.81]",2025-06-24T16:47:56-04:00,true
+17-european-town-rooftop-view.jpg,"ids 0.34, 0.66, 0.45, 0.74","ids [0.34, 0.66, 0.45, 0.74]",2025-06-24T16:47:58-04:00,true
+18-poppy-seed-cake-slices.jpg,"ids 0.24, 0.39, 0.38, 0.48","ids [0.24, 0.39, 0.38, 0.48]",2025-06-24T16:48:00-04:00,true
+19-louvre-pyramid-courtyard.jpg,"ids 0.42, 0.63, 0.49, 0.69","ids [0.42, 0.63, 0.49, 0.69]",2025-06-24T16:48:03-04:00,true
+20-woman-admiring-classical-statue.jpg,"ids 0.39, 0.13, 0.83, 0.4","ids [0.39, 0.13, 0.83, 0.4]",2025-06-24T16:48:05-04:00,true
+21-jeweled-royal-crown-display.jpg,"ids 0.25, 0.44, 0.35, 0.52","ids [0.25, 0.44, 0.35, 0.52]",2025-06-24T16:48:07-04:00,true
+22-catacomb-skull-bone-wall.jpg,"ids 0.39, 0.24, 0.61, 0.42","ids [0.39, 0.24, 0.61, 0.42]",2025-06-24T16:48:09-04:00,true
+23-catacomb-ossuary-plaque.jpg,"ids: 0.39, 0.72, 0.48, 0.82","ids: [0.39, 0.72, 0.48, 0.82]",2025-06-24T16:48:12-04:00,true
+24-forest-waterfall-moss-covered.jpg,ids,ids,2025-06-24T16:48:12-04:00,true
+25-dog-playing-in-river.jpg,"ids 0.39, 0.33, 0.56, 0.44","ids [0.39, 0.33, 0.56, 0.44]",2025-06-24T16:48:14-04:00,true
+26-outdoor-cedar-plank-cooking.jpg,"ids 0.31, 0.66, 0.41, 0.74","ids [0.31, 0.66, 0.41, 0.74]",2025-06-24T16:48:16-04:00,true
+27-woman-mountain-summit-view.jpg,"ids 0.39, 0.49, 0.83, 0.78","ids [0.39, 0.49, 0.83, 0.78]",2025-06-24T16:48:17-04:00,true
+28-theatrical-stage-projection-design.jpg,"ids 0.41, 0.66, 0.49, 0.73","ids [0.41, 0.66, 0.49, 0.73]",2025-06-24T16:48:19-04:00,true
+29-excited-black-brown-dog.jpg,"ids 0.26, 0.17, 0.64, 0.37","ids [0.26, 0.17, 0.64, 0.37]",2025-06-24T16:48:21-04:00,true
+30-woman-smiling-on-boat.jpg,"ids 0.39, 0.12, 0.6, 0.28","ids [0.39, 0.12, 0.6, 0.28]",2025-06-24T16:48:22-04:00,true
+31-wildebeest-herd-grazing-savanna.jpg,ids,ids,2025-06-24T16:48:24-04:00,true
+32-urban-fire-smoke-city-skyline.jpg,"ids 0.39, 0.64, 0.48, 0.71","ids [0.39, 0.64, 0.48, 0.71]",2025-06-24T16:48:25-04:00,true
+33-seabird-flying-over-pine-trees.jpg,"ids 0.39, 0.61, 0.48, 0.69","ids [0.39, 0.61, 0.48, 0.69]",2025-06-24T16:48:26-04:00,true
+34-humpback-whale-breaching-ocean.jpg,"0.01, 0.61, 1.0, 0.82","  [0.01, 0.61, 1.0, 0.82]",2025-06-24T16:48:26-04:00,true
+35-whale-tail-diving-forest-coastline.jpg,"ids 0.39, 0.52, 0.5, 0.62","ids [0.39, 0.52, 0.5, 0.62]",2025-06-24T16:48:27-04:00,true
+36-quiche-held-coastal-landscape.jpg,"ids 0.13, 0.62, 0.87, 0.78","ids [0.13, 0.62, 0.87, 0.78]",2025-06-24T16:48:28-04:00,true
+37-urban-deer-family-crossing-street.jpg,"ids 0.3, 0.52, 0.64, 0.61","ids [0.3, 0.52, 0.64, 0.61]",2025-06-24T16:48:29-04:00,true
+38-sunset-reflection-over-water.jpg,"ids 0.39, 0.62, 0.48, 0.69","ids [0.39, 0.62, 0.48, 0.69]",2025-06-24T16:48:30-04:00,true
+39-orange-sunset-lake-silhouette.jpg,"ids 0.39, 0.62, 0.99, 0.78","ids [0.39, 0.62, 0.99, 0.78]",2025-06-24T16:48:31-04:00,true
+40-sleeping-dog-close-up-portrait.jpg,"ids 0.13, 0.61, 0.87, 1.0","ids [0.13, 0.61, 0.87, 1.0]",2025-06-24T16:48:32-04:00,true
+41-black-dog-on-rocky-riverbed.jpg,"ids 0.39, 0.42, 0.52, 0.53","ids [0.39, 0.42, 0.52, 0.53]",2025-06-24T16:48:32-04:00,true
+42-abandoned-blue-wheelbarrow-forest.jpg,"ids 0.39, 0.52, 0.48, 0.61","ids [0.39, 0.52, 0.48, 0.61]",2025-06-24T16:48:33-04:00,true
+43-purple-foxglove-with-raindrops.jpg,"ids 0.22, 0.12, 0.65, 0.46","ids [0.22, 0.12, 0.65, 0.46]",2025-06-24T16:48:34-04:00,true
+44-foxglove-flowers-forest-meadow.jpg,"ids 0.39, 0.62, 0.6, 0.76","ids [0.39, 0.62, 0.6, 0.76]",2025-06-24T16:48:35-04:00,true
+45-hiker-with-dog-forest-trail.jpg,"ids 0.39, 0.2, 0.61, 0.43","ids [0.39, 0.2, 0.61, 0.43]",2025-06-24T16:48:36-04:00,true
+46-aerial-view-coastal-town.jpg,"ids 0.36, 0.66, 0.48, 0.71","ids [0.36, 0.66, 0.48, 0.71]",2025-06-24T16:48:37-04:00,true
+47-office-party-snack-table.jpg,"ids 1, 2, 3","ids 1, 2, 3",2025-06-24T16:48:37-04:00,true
+48-elephant-art-gallery-display.jpg,"ids 0.39, 0.22, 0.64, 0.43","ids [0.39, 0.22, 0.64, 0.43]",2025-06-24T16:48:38-04:00,true
+49-restaurant-dinner-gathering.jpg,"0.01, 0.13, 0.3, 0.4","  [0.01, 0.13, 0.3, 0.4]",2025-06-24T16:48:39-04:00,true
+50-war-memorial-statue-night.jpg,"ids 0.41, 0.53, 0.52, 0.59","ids [0.41, 0.53, 0.52, 0.59]",2025-06-24T16:48:40-04:00,true
+51-green-dessert-molecular-spheres.jpg,"ids 0.32, 0.67, 0.5, 0.78","ids [0.32, 0.67, 0.5, 0.78]",2025-06-24T16:48:41-04:00,true
+52-rose-shaped-dessert-edible-flower.jpg,"ids 0.41, 0.39, 0.57, 0.48","ids [0.41, 0.39, 0.57, 0.48]",2025-06-24T16:48:42-04:00,true
+53-mountain-restaurant-couple-dining.jpg,"ids 0.32, 0.39, 0.61, 0.65","ids [0.32, 0.39, 0.61, 0.65]",2025-06-24T16:48:43-04:00,true
+54-family-birthday-lunch-patio.jpg,"ids 0.18, 0.23, 0.5, 0.42","ids [0.18, 0.23, 0.5, 0.42]",2025-06-24T16:48:43-04:00,true
+55-mountain-restaurant-group-dining.jpg,"ids 0.36, 0.33, 0.69, 0.53","ids [0.36, 0.33, 0.69, 0.53]",2025-06-24T16:48:44-04:00,true
+56-summit-selfie-sunny-snowboard.jpg,"ids 0.38, 0.64, 0.6, 0.86","ids [0.38, 0.64, 0.6, 0.86]",2025-06-24T16:48:45-04:00,true
+57-mountain-hut-group-window-view.jpg,"ids 0.25, 0.6, 0.61, 0.87","ids [0.25, 0.6, 0.61, 0.87]",2025-06-24T16:48:46-04:00,true
+58-rustic-alpine-restaurant-group.jpg,"ids 0.25, 0.43, 0.5, 0.58","ids [0.25, 0.43, 0.5, 0.58]",2025-06-24T16:48:47-04:00,true

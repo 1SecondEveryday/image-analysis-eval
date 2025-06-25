@@ -1,0 +1,7 @@
+{
+  "model": "llava-phi3:3.8b",
+  "image_size": 768,
+  "prompt_name": "06-concise-complete",
+  "timestamp": "2025-06-24T22:44:51-04:00",
+  "images_processed": 58
+}

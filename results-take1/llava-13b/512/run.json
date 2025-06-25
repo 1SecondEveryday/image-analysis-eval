@@ -1,0 +1,7 @@
+{
+  "model": "llava:13b",
+  "image_size": 512,
+  "prompt_name": "06-concise-complete",
+  "timestamp": "2025-06-24T19:14:24-04:00",
+  "images_processed": 58
+}
