@@ -1,1 +1,1 @@
-Comma-separated tags covering: colors, all objects, people count, activities, emotions, location type, weather/lighting, time of day, mood. Tags only.
+Comma-separated keywords covering: colors, all objects, people count, activities, emotions, location type, weather/lighting, time of day, mood. Keywords only.

@@ -8,28 +8,20 @@ require 'fileutils'
 require 'csv'
 require 'optparse'
 require 'time'
-require 'concurrent'
 
 class TagExtractor
   OLLAMA_URL = 'http://localhost:11434/api/generate'
-  DEFAULT_MODELS = {
-    'qwen2.5vl:3b' => 2,
-    'moondream:1.8b' => 8, # doesn't help a lot but doesn't hurt either
-    'llava:7b' => 2,
-    # 'llava:13b' => 2,
-    # 'llama3.2-vision:11b' => 1, # super slow, 3+ minutes for 8 photos
-    'llava-phi3:3.8b' => 4
-  }
+  DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:3b']
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
 
   def initialize(options = {})
-    @global_parallel = options[:parallel]  # Global override if specified
     @models = options[:models] || DEFAULT_MODELS
     @timeout = options[:timeout] || 120
     @verbose = options[:verbose] || false
     @max_images = options[:max_images] || nil
     @no_unload = options[:no_unload] || false
     @single_prompt = options[:single_prompt] || nil
+    @system_prompt = options[:system_prompt] || "You are an image-keyword assistant. After analyzing each picture, output one line containing concise, lowercase English keywords separated by commas. Include scene type, activities, number of people (e.g. '3-people'), emotions, dominant colours, time-of-day, objects in foreground, objects in background. Do not repeat synonyms. Do not output anything except the comma-separated keyword list."
   end
 
   def run
@@ -54,29 +46,17 @@ class TagExtractor
     puts
 
     total_tasks = images.length * prompts.length * @models.length
-    completed = Concurrent::AtomicFixnum.new(0)
+    completed = 0
     start_time = Time.now
 
     # Create master CSV
     master_csv = CSV.open('results/master.csv', 'w')
     master_csv << %w[model image_size prompt_name image_filename tags raw_output timestamp success]
 
-    # Process in batches by model to allow proper cleanup
-    model_list = @models.is_a?(Hash) ? @models.keys : @models
-
-    model_list.each_with_index do |model, model_index|
-      # Determine parallelism for this model
-      parallel = if @global_parallel
-        @global_parallel  # Use global override if specified
-      elsif @models.is_a?(Hash)
-        @models[model] || 2  # Use model-specific or default to 2
-      else
-        2  # Default parallelism
-      end
-
+    # Process each model sequentially
+    @models.each_with_index do |model, model_index|
       puts "\n" + "=" * 60
-      puts "📊 Model #{model_index + 1}/#{model_list.length}: #{model}"
-      puts "  Parallelism: #{parallel}"
+      puts "📊 Model #{model_index + 1}/#{@models.length}: #{model}"
       puts "=" * 60
 
       # Check if model exists and pull if needed
@@ -95,34 +75,30 @@ class TagExtractor
       # Ensure model is loaded
       ensure_model_loaded(model)
 
-      # Create thread pool for this model
-      pool = Concurrent::FixedThreadPool.new(parallel)
-
+      # Process each prompt/image combination
       prompts.each do |prompt_file, prompt_content|
         prompt_name = File.basename(prompt_file, '.*')
 
         images.each do |image_info|
-          pool.post do
-            process_single_image(
-              model: model,
-              image_info: image_info,
-              prompt_name: prompt_name,
-              prompt_content: prompt_content,
-              master_csv: master_csv,
-              completed: completed,
-              total: total_tasks
-            )
-          end
+          completed += 1
+          progress = (completed.to_f / total_tasks * 100).round(1)
+          # Clear the line with spaces to prevent leftover characters
+          print "\r%-80s" % " "
+          print "\r  Progress: #{progress}% (#{completed}/#{total_tasks}) - Processing #{image_info[:filename]}"
+
+          process_single_image(
+            model: model,
+            image_info: image_info,
+            prompt_name: prompt_name,
+            prompt_content: prompt_content,
+            master_csv: master_csv
+          )
         end
       end
 
-      # Wait for all tasks for this model to complete
-      pool.shutdown
-      pool.wait_for_termination
-
       # Unload model to free memory (unless disabled)
       unless @no_unload
-        puts "  🧹 Unloading model #{model}..."
+        puts "\n  🧹 Unloading model #{model}..."
         unload_model(model)
       end
     end
@@ -145,9 +121,18 @@ class TagExtractor
 
   def collect_images
     images = []
+    
+    # Only process 768 and 1024 sizes
+    allowed_sizes = [768, 1024]
 
     Dir.glob('photo-*').select { |d| File.directory?(d) }.each do |dir|
-      size = dir.match(/photo-(\d+)/)[1]
+      size_match = dir.match(/photo-(\d+)/)
+      next unless size_match
+      
+      size = size_match[1].to_i
+      
+      # Skip sizes we don't want
+      next unless allowed_sizes.include?(size)
 
       Dir.entries(dir).each do |file|
         next unless valid_image?(file)
@@ -155,7 +140,7 @@ class TagExtractor
         images << {
           path: File.join(dir, file),
           filename: file,
-          size: size.to_i
+          size: size
         }
       end
     end
@@ -238,7 +223,7 @@ class TagExtractor
     end
   end
 
-  def process_single_image(model:, image_info:, prompt_name:, prompt_content:, master_csv:, completed:, total:)
+  def process_single_image(model:, image_info:, prompt_name:, prompt_content:, master_csv:)
     start = Time.now
 
     # Read and encode image
@@ -276,46 +261,31 @@ class TagExtractor
       success: success
     )
 
-    # Save to master CSV (thread-safe)
-    @mutex ||= Mutex.new
-    @mutex.synchronize do
-      master_csv << [
-        model,
-        image_info[:size],
-        prompt_name,
-        image_info[:filename],
-        tags,
-        raw_output.gsub("\n", " "),
-        Time.now.iso8601,
-        success
-      ]
-      master_csv.flush
-    end
-
-    # Update progress
-    count = completed.increment
-    progress = (count.to_f / total * 100).round(1)
-    elapsed = Time.now - start
-
-    if @verbose || count % 10 == 0
-      print "\r  Overall progress: #{progress}% (#{count}/#{total})"
-    end
+    # Save to master CSV (no longer need thread safety)
+    master_csv << [
+      model,
+      image_info[:size],
+      prompt_name,
+      image_info[:filename],
+      tags,
+      raw_output.gsub("\n", " "),
+      Time.now.iso8601,
+      success
+    ]
+    master_csv.flush
 
   rescue => e
     puts "\n  ❌ Error processing #{image_info[:filename]}: #{e.message}"
-    @mutex ||= Mutex.new
-    @mutex.synchronize do
-      master_csv << [
-        model,
-        image_info[:size],
-        prompt_name,
-        image_info[:filename],
-        "",
-        "Error: #{e.message}",
-        Time.now.iso8601,
-        false
-      ]
-    end
+    master_csv << [
+      model,
+      image_info[:size],
+      prompt_name,
+      image_info[:filename],
+      "",
+      "Error: #{e.message}",
+      Time.now.iso8601,
+      false
+    ]
   end
 
   def query_ollama(model:, image_base64:, prompt:)
@@ -327,12 +297,13 @@ class TagExtractor
     request['Content-Type'] = 'application/json'
     request.body = {
       model: model,
+      system: @system_prompt,
       prompt: prompt,
       images: [image_base64],
       stream: false,
       options: {
-        temperature: 0.1,
-        num_predict: 500
+        temperature: 0.2,
+        num_predict: 300
       }
     }.to_json
 
@@ -352,18 +323,29 @@ class TagExtractor
   end
 
   def extract_tags(raw_output)
-    # Clean up the output to extract just the tags
+    # Clean up the output to extract just the keywords
     cleaned = raw_output.strip
 
-    # Remove any explanatory text before or after tags
+    # Remove any explanatory text before or after keywords
     lines = cleaned.split("\n")
     tag_line = lines.find { |line| line.include?(',') } || cleaned
 
-    # Clean up common patterns
-    tag_line
+    # Clean up common patterns and remove hashtags
+    cleaned_line = tag_line
       .gsub(/^(tags:|keywords:|output:)/i, '')
-      .gsub(/["\[\]{}]/, '')
+      .gsub(/["\[\]{}#]/, '')  # Added # to remove hashtags
       .strip
+    
+    # Split, clean, deduplicate, sort, and rejoin keywords
+    keywords = cleaned_line.split(',')
+      .map(&:strip)
+      .map(&:downcase)
+      .reject(&:empty?)
+      .uniq
+      .sort
+      .join(', ')
+    
+    keywords
   end
 
   def save_individual_result(model:, size:, prompt_name:, filename:, tags:, raw_output:, success:)
@@ -420,7 +402,6 @@ end
 # CLI interface
 if __FILE__ == $0
   options = {
-    parallel: 8,
     models: TagExtractor::DEFAULT_MODELS,
     timeout: 120,
     verbose: false,
@@ -432,32 +413,8 @@ if __FILE__ == $0
   OptionParser.new do |opts|
     opts.banner = "Usage: #{$0} [options]"
 
-    opts.on("-p", "--parallel NUM", Integer, "Number of parallel requests (default: 8)") do |n|
-      options[:parallel] = n
-    end
-
-    opts.on("-m", "--models MODELS", "Comma-separated list of models or model:parallel pairs") do |models|
-      model_list = models.split(',').map(&:strip)
-
-      # Check if any model has parallelism specified
-      if model_list.any? { |m| m.include?(':') && m.split(':').length > 2 }
-        # Parse model:parallel format
-        model_hash = {}
-        model_list.each do |entry|
-          parts = entry.split(':')
-          if parts.length > 2  # Has parallelism (e.g., llava:7b:4)
-            model_name = parts[0..-2].join(':')
-            parallel = parts.last.to_i
-            model_hash[model_name] = parallel > 0 ? parallel : 2
-          else  # Just model name
-            model_hash[entry] = 2
-          end
-        end
-        options[:models] = model_hash
-      else
-        # Simple list of models
-        options[:models] = model_list
-      end
+    opts.on("-m", "--models MODELS", "Comma-separated list of models") do |models|
+      options[:models] = models.split(',').map(&:strip)
     end
 
     opts.on("-t", "--timeout SECONDS", Integer, "Request timeout in seconds (default: 120)") do |t|

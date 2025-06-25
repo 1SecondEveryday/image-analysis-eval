@@ -1,1 +1,1 @@
-Provide a single comma-separated list of tags. Capture colors, objects, count of people, activities and interactions, emotional tone, setting (e.g. beach/urban/indoor), weather, time of day, and overall scene mood—nothing else.
+Provide a single comma-separated list of keywords. Capture colors, objects, count of people, activities and interactions, emotional tone, setting (e.g. beach/urban/indoor), weather, time of day, and overall scene mood—nothing else.
