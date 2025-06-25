@@ -21,7 +21,7 @@ class TagExtractor
     @max_images = options[:max_images] || nil
     @no_unload = options[:no_unload] || false
     @single_prompt = options[:single_prompt] || nil
-    @system_prompt = options[:system_prompt] || "You are an image-keyword assistant. After analyzing each picture, output one line containing concise, lowercase English keywords separated by commas. Include scene type, activities, number of people (e.g. '3-people'), emotions, dominant colours, time-of-day, objects in foreground, objects in background. Do not repeat synonyms. Do not output anything except the comma-separated keyword list."
+    @system_prompt = options[:system_prompt] || "You are an image-keyword assistant. After analyzing each picture, output one line containing concise, lowercase English keywords separated by commas. Include scene type, activities, emotions, dominant colours, time-of-day, objects in foreground, objects in background. For people: only include 'people' as a keyword if humans are actually visible in the image, followed by descriptive count like '3-people' or 'group'. If no people are present, do not include any people-related keywords. Do not repeat synonyms. Do not output anything except the comma-separated keyword list."
   end
 
   def run
@@ -121,16 +121,16 @@ class TagExtractor
 
   def collect_images
     images = []
-    
+
     # Only process 768 and 1024 sizes
     allowed_sizes = [768, 1024]
 
     Dir.glob('photo-*').select { |d| File.directory?(d) }.each do |dir|
       size_match = dir.match(/photo-(\d+)/)
       next unless size_match
-      
+
       size = size_match[1].to_i
-      
+
       # Skip sizes we don't want
       next unless allowed_sizes.include?(size)
 
@@ -302,7 +302,7 @@ class TagExtractor
       images: [image_base64],
       stream: false,
       options: {
-        temperature: 0.2,
+        temperature: 0.1,
         num_predict: 300
       }
     }.to_json
@@ -335,7 +335,7 @@ class TagExtractor
       .gsub(/^(tags:|keywords:|output:)/i, '')
       .gsub(/["\[\]{}#]/, '')  # Added # to remove hashtags
       .strip
-    
+
     # Split, clean, deduplicate, sort, and rejoin keywords
     keywords = cleaned_line.split(',')
       .map(&:strip)
@@ -344,7 +344,7 @@ class TagExtractor
       .uniq
       .sort
       .join(', ')
-    
+
     keywords
   end
 
