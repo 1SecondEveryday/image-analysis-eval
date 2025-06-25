@@ -11,7 +11,7 @@ require 'time'
 
 class TagExtractor
   OLLAMA_URL = 'http://localhost:11434/api/generate'
-  DEFAULT_MODELS = ['llava:7b']
+  DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'bakllava:7b', 'minicpm-v:8b', 'llama3.2-vision:11b', 'llava:13b']
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
 
   def initialize(options = {})
