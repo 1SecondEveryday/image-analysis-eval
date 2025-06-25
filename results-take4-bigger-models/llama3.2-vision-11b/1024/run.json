@@ -1,0 +1,10 @@
+{
+  "model": "llama3.2-vision:11b",
+  "image_size": 1024,
+  "prompt_name": "11-smart-scene-decoder",
+  "timestamp": "2025-06-25T07:26:24-04:00",
+  "system": {
+    "platform": "arm64-darwin24",
+    "ruby_version": "3.4.3"
+  }
+}

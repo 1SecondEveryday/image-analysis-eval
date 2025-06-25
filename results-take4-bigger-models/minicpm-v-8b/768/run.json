@@ -1,0 +1,10 @@
+{
+  "model": "minicpm-v:8b",
+  "image_size": 768,
+  "prompt_name": "11-smart-scene-decoder",
+  "timestamp": "2025-06-25T03:41:53-04:00",
+  "system": {
+    "platform": "arm64-darwin24",
+    "ruby_version": "3.4.3"
+  }
+}

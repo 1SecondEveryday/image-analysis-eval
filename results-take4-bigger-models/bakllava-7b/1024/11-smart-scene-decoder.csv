@@ -1,0 +1,59 @@
+image_filename,tags,raw_output,timestamp,success
+01-street-meditation-couple.jpg,2 people sitting on a stone bench outside in the morning.,2 people sitting on a stone bench outside in the morning.,2025-06-25T03:00:33-04:00,true
+02-graffiti-skate-park.jpg,0,0,2025-06-25T03:00:35-04:00,true
+03-belgian-stew-fries.jpg,1000 words,1000 words,2025-06-25T03:00:36-04:00,true
+04-cheese-fondue-dinner.jpg,"100 words or less, focused on the image's content","100 words or less, focused on the image's content",2025-06-25T03:00:37-04:00,true
+05-snowboarders-mountain-rest.jpg,100 words maximum per image.,100 words maximum per image.,2025-06-25T03:00:39-04:00,true
+06-alpine-trail-hiker.jpg,100-word limit for each frame.,100-word limit for each frame.,2025-06-25T03:00:40-04:00,true
+07-restaurant-group-dinner.jpg,1000 words max.,1000 words max.,2025-06-25T03:00:41-04:00,true
+08-neon-bar-friends.jpg,"10-word maximum per sentence, please use semicolons to separate clauses.","10-word maximum per sentence, please use semicolons to separate clauses.",2025-06-25T03:00:43-04:00,true
+09-record-store-group-photo.jpg,"100 words maximum, concise and precise descriptions.","100 words maximum, concise and precise descriptions.",2025-06-25T03:00:44-04:00,true
+10-alpine-peaks-vista.jpg,"1000 words or less per frame, no more than 5 sentences.","1000 words or less per frame, no more than 5 sentences.",2025-06-25T03:00:46-04:00,true
+11-blue-sneakers-blacklight.jpg,3d model of a purple floor and purple shoes with blue laces.,3D model of a purple floor and purple shoes with blue laces.,2025-06-25T03:00:47-04:00,true
+12-winter-jackets-uv-light.jpg,"1000 words or less, capitalize first words only, no punctutation","1000 words or less, no punctutation, capitalize first words only",2025-06-25T03:00:48-04:00,true
+13-couple-train-selfie.jpg,100 words maximum for each sentence.,100 words maximum for each sentence.,2025-06-25T03:00:50-04:00,true
+14-freddie-mercury-statue.jpg,"100 words or less, capitalize proper nouns only, no punctutation","100 words or less, no punctutation, capitalize proper nouns only",2025-06-25T03:00:51-04:00,true
+15-red-eyes-costume-display.jpg,"100 words or less, concise and precise descriptions","100 words or less, concise and precise descriptions",2025-06-25T03:00:53-04:00,true
+16-highland-cattle-pen.jpg,"10-word limit for each sentence, no abbreviations or acronyms., use full words","10-word limit for each sentence, use full words, no abbreviations or acronyms.",2025-06-25T03:00:54-04:00,true
+17-european-town-rooftop-view.jpg,"1000 words or less, capitalize first word only, no punctutation","1000 words or less, no punctutation, capitalize first word only",2025-06-25T03:00:56-04:00,true
+18-poppy-seed-cake-slices.jpg,1000 words,1000 words,2025-06-25T03:00:57-04:00,true
+19-louvre-pyramid-courtyard.jpg,100 words max.,100 words max.,2025-06-25T03:00:58-04:00,true
+20-woman-admiring-classical-statue.jpg,1000 words,1000 words,2025-06-25T03:00:59-04:00,true
+21-jeweled-royal-crown-display.jpg,1000 words,1000 words,2025-06-25T03:01:01-04:00,true
+22-catacomb-skull-bone-wall.jpg,1000 words,1000 words,2025-06-25T03:01:02-04:00,true
+23-catacomb-ossuary-plaque.jpg,"100 words or less, capitalize proper nouns only, no punctutation","100 words or less, no punctutation, capitalize proper nouns only",2025-06-25T03:01:03-04:00,true
+24-forest-waterfall-moss-covered.jpg,100 words or less for each frame.,100 words or less for each frame.,2025-06-25T03:01:05-04:00,true
+25-dog-playing-in-river.jpg,0,0,2025-06-25T03:01:06-04:00,true
+26-outdoor-cedar-plank-cooking.jpg,"100 words or less, natural language description, no bullet points","100 words or less, no bullet points, natural language description",2025-06-25T03:01:07-04:00,true
+27-woman-mountain-summit-view.jpg,1000 words max.,1000 words max.,2025-06-25T03:01:09-04:00,true
+28-theatrical-stage-projection-design.jpg,"3d, imax, virtual reality","3D, IMAX, virtual reality",2025-06-25T03:01:10-04:00,true
+29-excited-black-brown-dog.jpg,1000 words,1000 words,2025-06-25T03:01:11-04:00,true
+30-woman-smiling-on-boat.jpg,100 words maximum for each frame.,100 words maximum for each frame.,2025-06-25T03:01:12-04:00,true
+31-wildebeest-herd-grazing-savanna.jpg,100 words or less for each frame.,100 words or less for each frame.,2025-06-25T03:01:14-04:00,true
+32-urban-fire-smoke-city-skyline.jpg,1000 words,1000 words,2025-06-25T03:01:15-04:00,true
+33-seabird-flying-over-pine-trees.jpg,0,0,2025-06-25T03:01:16-04:00,true
+34-humpback-whale-breaching-ocean.jpg,"100% of the time, provide a single whale in the water.","100% of the time, provide a single whale in the water.",2025-06-25T03:01:18-04:00,true
+35-whale-tail-diving-forest-coastline.jpg,2016 virginia whale watching tour,2016 Virginia whale watching tour,2025-06-25T03:01:19-04:00,true
+36-quiche-held-coastal-landscape.jpg,1000 words,1000 words,2025-06-25T03:01:20-04:00,true
+37-urban-deer-family-crossing-street.jpg,3 deer in the street,3 deer in the street,2025-06-25T03:01:22-04:00,true
+38-sunset-reflection-over-water.jpg,"1000 words or less, capitalize first word only if it's a proper noun., no punctutation","1000 words or less, no punctutation, capitalize first word only if it's a proper noun.",2025-06-25T03:01:23-04:00,true
+39-orange-sunset-lake-silhouette.jpg,"1000 words or less, capitalize first word only if it's a proper noun., no punctuation","1000 words or less, no punctuation, capitalize first word only if it's a proper noun.",2025-06-25T03:01:25-04:00,true
+40-sleeping-dog-close-up-portrait.jpg,"100 words or less, capitalize first words only, no punctutation","100 words or less, no punctutation, capitalize first words only",2025-06-25T03:01:26-04:00,true
+41-black-dog-on-rocky-riverbed.jpg,1000 words,1000 words,2025-06-25T03:01:27-04:00,true
+42-abandoned-blue-wheelbarrow-forest.jpg,100 words or less for each frame.,100 words or less for each frame.,2025-06-25T03:01:29-04:00,true
+43-purple-foxglove-with-raindrops.jpg,"1000 words or less, capitalize first words only if proper nouns, no punctutation","1000 words or less, no punctutation, capitalize first words only if proper nouns",2025-06-25T03:01:30-04:00,true
+44-foxglove-flowers-forest-meadow.jpg,100-word limit for each frame's description.,100-word limit for each frame's description.,2025-06-25T03:01:32-04:00,true
+45-hiker-with-dog-forest-trail.jpg,100-word limit for each frame's description.,100-word limit for each frame's description.,2025-06-25T03:01:33-04:00,true
+46-aerial-view-coastal-town.jpg,"100% of frames analyzed, no frame skipped","100% of frames analyzed, no frame skipped",2025-06-25T03:01:34-04:00,true
+47-office-party-snack-table.jpg,140 characters remaining,140 characters remaining,2025-06-25T03:01:36-04:00,true
+48-elephant-art-gallery-display.jpg,3d tv screen showing an elephant and a lion.,3D tv screen showing an elephant and a lion.,2025-06-25T03:01:37-04:00,true
+49-restaurant-dinner-gathering.jpg,1000 words,1000 words,2025-06-25T03:01:38-04:00,true
+50-war-memorial-statue-night.jpg,1000 words max per frame.,1000 words max per frame.,2025-06-25T03:01:40-04:00,true
+51-green-dessert-molecular-spheres.jpg,1000 words,1000 words,2025-06-25T03:01:41-04:00,true
+52-rose-shaped-dessert-edible-flower.jpg,1000 words,1000 words,2025-06-25T03:01:42-04:00,true
+53-mountain-restaurant-couple-dining.jpg,2 people posing for a picture together at a table with drinks in front of them.,2 people posing for a picture together at a table with drinks in front of them.,2025-06-25T03:01:44-04:00,true
+54-family-birthday-lunch-patio.jpg,100 words maximum per frame.,100 words maximum per frame.,2025-06-25T03:01:45-04:00,true
+55-mountain-restaurant-group-dining.jpg,100 words maximum per image caption.,100 words maximum per image caption.,2025-06-25T03:01:46-04:00,true
+56-summit-selfie-sunny-snowboard.jpg,"2 men standing in front of a mountain, one is wearing a blue jacket and smiling while the other is wearing a black jacket and frowning","2 men standing in front of a mountain, one is wearing a blue jacket and smiling while the other is wearing a black jacket and frowning",2025-06-25T03:01:48-04:00,true
+57-mountain-hut-group-window-view.jpg,100 words maximum per image caption.,100 words maximum per image caption.,2025-06-25T03:01:49-04:00,true
+58-rustic-alpine-restaurant-group.jpg,100 words maximum per image description.,100 words maximum per image description.,2025-06-25T03:01:51-04:00,true

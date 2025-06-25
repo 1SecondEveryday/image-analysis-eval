@@ -1,0 +1,10 @@
+{
+  "model": "llava:7b",
+  "image_size": 768,
+  "prompt_name": "11-smart-scene-decoder",
+  "timestamp": "2025-06-25T01:25:19-04:00",
+  "system": {
+    "platform": "arm64-darwin24",
+    "ruby_version": "3.4.3"
+  }
+}
