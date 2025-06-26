@@ -11,7 +11,8 @@ require 'time'
 
 class TagExtractor
   OLLAMA_URL = 'http://localhost:11434/api/generate'
-  DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'minicpm-v:8b']
+  # DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'minicpm-v:8b']
+  DEFAULT_MODELS = ['gemma3:4b', 'gemma3:12b', 'gemma3:27b']
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
 
   def initialize(options = {})
@@ -61,15 +62,20 @@ class TagExtractor
 
       # Check if model exists and pull if needed
       unless model_exists?(model)
-        puts "  📦 Model not found locally. Pulling #{model}..."
+        puts "  📦 Model #{model} not found locally. Attempting to pull..."
+        puts "  ⏳ This may take a while for large models..."
+
         pull_success = system("ollama pull #{model}")
 
         unless pull_success
-          puts "  ❌ Failed to pull #{model}. Skipping..."
+          puts "  ❌ Failed to pull #{model}. Skipping this model."
+          puts "     Try running manually: ollama pull #{model}"
           next
         end
 
         puts "  ✓ Successfully pulled #{model}"
+      else
+        puts "  ✓ Model #{model} already available"
       end
 
       # Ensure model is loaded
@@ -205,8 +211,8 @@ class TagExtractor
 
   def model_exists?(model)
     list_output = `ollama list 2>&1`
-    model_name = model.split(':').first
-    list_output.include?(model_name)
+    # The model name appears at the start of each line in the output
+    list_output.lines.any? { |line| line.strip.start_with?("#{model} ") || line.strip.start_with?("#{model}\t") }
   end
 
   def unload_model(model)

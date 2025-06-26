@@ -72,6 +72,25 @@ The evaluation framework tests different combinations of:
 ## Current Focus
 
 Based on git history, the project has narrowed from broad testing to:
-- **Models**: llava:7b (quality) and qwen2.5vl:3b (speed)
-- **Sizes**: 768px and 1024px (balance of quality and performance)
+- **Models**: llava:7b, qwen2.5vl:7b, and minicpm-v:8b
+- **Sizes**: 768px (optimal balance of quality and performance)
+- **Prompts**: Simplified to 01, 03, and 05 (complex prompts removed)
 - **Goal**: Optimal tag extraction for video diary search functionality
+
+## Evaluation Priorities
+
+When evaluating model performance, our priorities are (in order):
+1. **People detection** - Detecting human presence, emotions, expressions, moods, activities, and interactions
+2. **Overall mood/atmosphere** - Capturing the feeling and emotional tone of scenes
+3. **Objects** - Important items that provide context
+4. **Scene details** - Colors, lighting, setting/location, time of day
+2. **Camera perspective** - Identifying selfies and POV (first-person) shots
+
+### Key Insights from Testing
+- **Emotion focus**: We prioritize understanding how people feel over precisely counting them
+- **Background matters**: Details like "bicycles in distance" enable memory-based searches
+- **Simple prompts win**: Complex prompts cause repetition without adding value
+- **Model strengths vary**:
+  - Qwen2.5VL: Best for emotion keywords
+  - MiniCPM-V: Best for comprehensive scene understanding
+  - LLaVA:7b: Most reliable with minimal repetition
