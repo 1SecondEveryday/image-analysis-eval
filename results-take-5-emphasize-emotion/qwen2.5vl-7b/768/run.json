@@ -1,0 +1,10 @@
+{
+  "model": "qwen2.5vl:7b",
+  "image_size": 768,
+  "prompt_name": "05-detailed-elements",
+  "timestamp": "2025-06-25T09:09:22-04:00",
+  "system": {
+    "platform": "arm64-darwin24",
+    "ruby_version": "3.4.3"
+  }
+}
