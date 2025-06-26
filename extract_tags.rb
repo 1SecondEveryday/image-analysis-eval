@@ -11,9 +11,20 @@ require 'time'
 
 class TagExtractor
   OLLAMA_URL = 'http://localhost:11434/api/generate'
-  # DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'minicpm-v:8b']
-  DEFAULT_MODELS = ['gemma3:4b', 'gemma3:12b', 'gemma3:27b']
+
+  DEFAULT_MODELS = ['llava:7b', 'qwen2.5vl:7b', 'minicpm-v:8b', 'gemma3:12b']
+
   VALID_EXTENSIONS = %w[.jpg .jpeg .png .gif .bmp .tiff .tif].freeze
+
+  DEFAULT_SYSTEM_PROMPT = <<~PROMPT.freeze
+    You are an image-keyword assistant. After analyzing each picture, output one line containing concise,
+    lowercase English keywords separated by commas. Focus on people's emotions, expressions, moods, and
+    activities if present. Include overall atmosphere, key objects, dominant colors, lighting quality,
+    and setting. For people: include 'people' if humans are visible, with descriptors like 'couple',
+    'group', or 'crowd'. If the image appears to be a selfie or POV (point-of-view/first-person perspective),
+    include 'selfie' or 'pov' as appropriate. Prioritize emotional and mood keywords. Do not repeat synonyms.
+    Do not output anything except the comma-separated keyword list.
+  PROMPT
 
   def initialize(options = {})
     @models = options[:models] || DEFAULT_MODELS
@@ -22,7 +33,7 @@ class TagExtractor
     @max_images = options[:max_images] || nil
     @no_unload = options[:no_unload] || false
     @single_prompt = options[:single_prompt] || nil
-    @system_prompt = options[:system_prompt] || "You are an image-keyword assistant. After analyzing each picture, output one line containing concise, lowercase English keywords separated by commas. Focus on people's emotions, expressions, moods, and activities if present. Include overall atmosphere, key objects, dominant colors, lighting quality, and setting. For people: include 'people' if humans are visible, with descriptors like 'couple', 'group', or 'crowd'. If the image appears to be a selfie or POV (point-of-view/first-person perspective), include 'selfie' or 'pov' as appropriate. Prioritize emotional and mood keywords. Do not repeat synonyms. Do not output anything except the comma-separated keyword list."
+    @system_prompt = options[:system_prompt] || DEFAULT_SYSTEM_PROMPT
   end
 
   def run

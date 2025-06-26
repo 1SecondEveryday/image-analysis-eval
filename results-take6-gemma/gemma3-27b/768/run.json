@@ -1,0 +1,10 @@
+{
+  "model": "gemma3:27b",
+  "image_size": 768,
+  "prompt_name": "05-detailed-elements",
+  "timestamp": "2025-06-26T11:51:59-04:00",
+  "system": {
+    "platform": "arm64-darwin24",
+    "ruby_version": "3.4.3"
+  }
+}
