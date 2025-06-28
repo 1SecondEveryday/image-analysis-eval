@@ -32,7 +32,7 @@ class TagExtractor
     @verbose = options[:verbose] || false
     @max_images = options[:max_images] || nil
     @no_unload = options[:no_unload] || false
-    @single_prompt = options[:single_prompt] || nil
+    @skip_prompt = options[:skip_prompt] || false
     @system_prompt = options[:system_prompt] || DEFAULT_SYSTEM_PROMPT
   end
 
@@ -53,7 +53,7 @@ class TagExtractor
 
     puts "🚀 Starting tag extraction:"
     puts "  • #{images.length} images found"
-    puts "  • #{prompts.length} prompts loaded"
+    puts "  • #{prompts.length} prompts#{@skip_prompt ? ' (system prompt only)' : ' loaded'}"
     puts "  • #{@models.length} models to test"
     puts
 
@@ -180,14 +180,9 @@ class TagExtractor
   def load_prompts
     prompts = {}
 
-    if @single_prompt
-      # Load only the specified prompt
-      prompt_file = "prompts/#{@single_prompt}.txt"
-      if File.exist?(prompt_file)
-        prompts[prompt_file] = File.read(prompt_file).strip
-      else
-        puts "❌ Prompt file not found: #{prompt_file}"
-      end
+    if @skip_prompt
+      # Use minimal prompt to rely mainly on system prompt
+      prompts["no_prompt"] = "Analyze this image."
     else
       # Load all prompts
       Dir.glob('prompts/*.txt').each do |file|
@@ -424,7 +419,7 @@ if __FILE__ == $0
     verbose: false,
     max_images: nil,
     no_unload: false,
-    single_prompt: nil
+    skip_prompt: false
   }
 
   OptionParser.new do |opts|
@@ -450,8 +445,8 @@ if __FILE__ == $0
       options[:no_unload] = true
     end
 
-    opts.on("--single-prompt NAME", "Use only one prompt (e.g. '01-structured-comprehensive')") do |name|
-      options[:single_prompt] = name
+    opts.on("--skip-prompt", "Skip user prompts and use only system prompt") do
+      options[:skip_prompt] = true
     end
 
     opts.on("-h", "--help", "Show this help") do
