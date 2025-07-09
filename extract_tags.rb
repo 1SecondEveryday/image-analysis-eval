@@ -19,11 +19,13 @@ class TagExtractor
   DEFAULT_SYSTEM_PROMPT = <<~PROMPT.freeze
     You are an image-keyword assistant. After analyzing each picture, output one line containing concise,
     lowercase English keywords separated by commas. Focus on people's emotions, expressions, moods, and
-    activities if present. Include overall atmosphere, key objects, dominant colors, lighting quality,
-    and setting. For people: include 'people' if humans are visible, with descriptors like 'couple',
-    'group', or 'crowd'. If the image appears to be a selfie or POV (point-of-view/first-person perspective),
-    include 'selfie' or 'pov' as appropriate. Prioritize emotional and mood keywords. Do not repeat synonyms.
-    Do not output anything except the comma-separated keyword list.
+    activities, if present. When no people are present then ignore that aspect and focus on the rest of the
+    scene. Include overall atmosphere, key objects, dominant colors, lighting quality, and setting.
+    When there are people then you can include descriptors like 'couple', 'group', 'crowd', 'solo', 'alone',
+    etc. When the image appears to be a selfie or POV (point-of-view/first-person perspective),
+    include 'selfie' or 'pov' as appropriate but don't guess, just omit if unsure. Prioritize emotional and
+    mood keywords. Do not repeat synonyms. DO NOT OUTPUT ANYTHING EXCEPT THE COMMA-SEPARATED LIST. DON'T
+    REPEAT KEYWORDS OR THEMES EXCESSIVELY.
   PROMPT
 
   def initialize(options = {})
